@@ -29,10 +29,18 @@ export default function ChartContainer() {
   const [data, setData] = useState<OhlcvPoint[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  // 1) 데이터 페칭 — /api/* → FastAPI (next.config.ts rewrites 프록시)
+  // 1) 데이터 페칭 — 브라우저가 cross-origin으로 FastAPI에 직접 호출.
+  //    실패 시 백엔드 `cors_origins` 설정을 먼저 의심.
   useEffect(() => {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    if (!apiUrl) {
+      setError(
+        "NEXT_PUBLIC_API_URL이 설정되지 않았습니다. web/.env.local을 확인하세요.",
+      );
+      return;
+    }
     const ac = new AbortController();
-    fetch("/api/stock/005930/ohlcv?days=180", { signal: ac.signal })
+    fetch(`${apiUrl}/api/stock/005930/ohlcv?days=180`, { signal: ac.signal })
       .then(async (r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}: ${await r.text()}`);
         return (await r.json()) as TechnicalSeriesResponse;

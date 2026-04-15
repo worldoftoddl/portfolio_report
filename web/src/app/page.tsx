@@ -14,7 +14,7 @@ export default function Home() {
       <ChartContainer />
       <footer className="mt-4 text-xs text-gray-400">
         데이터: FastAPI (<code>localhost:8000/api/stock/005930/ohlcv</code>)
-        · next.config.ts의 rewrites로 <code>/api/*</code> 프록시
+        · 브라우저에서 cross-origin 직접 호출 · CORS는 백엔드 <code>cors_origins</code> 설정에 의존
       </footer>
     </main>
   );

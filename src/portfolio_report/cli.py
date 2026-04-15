@@ -15,6 +15,7 @@ from portfolio_report.config import get_settings
 from portfolio_report.portfolio_loader import load_portfolio_file
 from portfolio_report.reporting.console import render_console
 from portfolio_report.reporting.html import render_html
+from portfolio_report.reporting.markdown import render_markdown
 
 app = typer.Typer(help="한국 주식 포트폴리오 분석 리포트")
 console = Console()
@@ -53,11 +54,11 @@ def analyze(
     no_llm: Annotated[bool, typer.Option("--no-llm", help="LLM 해석 생략 (Phase 4b)")] = False,
     output_format: Annotated[
         str,
-        typer.Option("--format", "-f", help="출력 형식: console, html"),
+        typer.Option("--format", "-f", help="출력 형식: console, markdown, html"),
     ] = "",
     output: Annotated[
         Path | None,
-        typer.Option("--output", "-o", help="HTML 출력 파일 경로"),
+        typer.Option("--output", "-o", help="markdown/html 출력 파일 경로"),
     ] = None,
     verbose: Annotated[bool, typer.Option("--verbose", "-v")] = False,
 ) -> None:
@@ -87,9 +88,17 @@ def analyze(
         render_console(report, console)
         return
 
+    if output_format == "markdown":
+        md = render_markdown(report)
+        target = output or _default_report_path("md")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(md, encoding="utf-8")
+        console.print(f"[green]✓ 마크다운 리포트 저장됨:[/green] {target}")
+        return
+
     if output_format == "html":
         html = render_html(report)
-        target = output or _default_html_path()
+        target = output or _default_report_path("html")
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(html, encoding="utf-8")
         console.print(f"[green]✓ HTML 리포트 저장됨:[/green] {target}")
@@ -99,10 +108,10 @@ def analyze(
     raise typer.Exit(code=1)
 
 
-def _default_html_path() -> Path:
+def _default_report_path(ext: str) -> Path:
     reports = get_settings().reports_dir
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    return reports / f"portfolio_{stamp}.html"
+    return reports / f"portfolio_{stamp}.{ext}"
 
 
 if __name__ == "__main__":

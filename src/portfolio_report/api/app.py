@@ -60,6 +60,22 @@ async def _default_lifespan(app: FastAPI) -> AsyncIterator[None]:
     app.state.naver_client = naver
     app.state.price_client = price
     app.state.resolver = resolver
+
+    # ANTHROPIC_API_KEY가 있으면 LLM 클라이언트도 앱 수명 동안 재사용 가능하도록 생성.
+    # 없으면 None 유지 → LLM 엔드포인트는 503 응답.
+    if settings.anthropic_api_key is not None:
+        try:
+            from portfolio_report.llm.claude_client import ClaudeClient
+
+            app.state.llm_client = ClaudeClient(settings)
+            logger.info("API 앱 시작: ClaudeClient 준비 완료")
+        except Exception as e:
+            logger.warning("ClaudeClient 초기화 실패, LLM 기능 비활성화: %s", e)
+            app.state.llm_client = None
+    else:
+        app.state.llm_client = None
+        logger.info("ANTHROPIC_API_KEY 없음 — LLM 엔드포인트는 503을 반환합니다")
+
     logger.info("API 앱 시작: analyzer/naver/price/resolver 초기화 완료")
     try:
         yield

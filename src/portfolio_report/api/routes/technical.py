@@ -7,8 +7,11 @@
 from __future__ import annotations
 
 import asyncio
+import json
+import logging
 
 from fastapi import APIRouter, Depends, Query
+from fastapi.responses import StreamingResponse
 
 from portfolio_report.analysis.technical import ALL_INDICATORS, Indicator, compute_indicators
 from portfolio_report.api.deps import (
@@ -28,6 +31,8 @@ from portfolio_report.data.price_client import PriceClient
 from portfolio_report.data.ticker_resolver import TickerResolver
 from portfolio_report.llm.base import BaseLLMClient, TechnicalContext
 from portfolio_report.models.holding import HoldingInput
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/stock", tags=["technical"])
 
@@ -102,3 +107,49 @@ async def llm_explain(
         raise APIError(str(e), status_code=502, error_code="llm_failure") from e
 
     return LLMExplainResponse(code=code, explanation=explanation)
+
+
+@router.post("/{code}/llm-explain/stream")
+async def llm_explain_stream(
+    code: str,
+    payload: LLMExplainRequest,
+    llm: BaseLLMClient | None = Depends(get_llm_client),
+) -> StreamingResponse:
+    """토큰 단위 SSE 스트리밍.
+
+    이벤트 프로토콜은 `BaseLLMClient.explain_technical_stream` 참조.
+    캐시 히트 시 meta 1개 + done으로 즉시 종결, 미스 시 delta N개 추가.
+    """
+    if llm is None:
+        raise APIError(
+            "LLM 클라이언트가 구성되지 않았습니다 (ANTHROPIC_API_KEY 미설정)",
+            status_code=503,
+            error_code="llm_unavailable",
+        )
+
+    ctx = TechnicalContext(
+        code=code,
+        name=payload.name,
+        current_price=payload.current_price,
+        signals=payload.signals,
+        price_tail=payload.price_tail,
+    )
+
+    async def event_generator():
+        try:
+            async for event in llm.explain_technical_stream(ctx):
+                yield f"data: {json.dumps(event, ensure_ascii=False)}\n\n"
+        except asyncio.CancelledError:
+            # 클라이언트 연결 끊김. ClaudeClient._is_cacheable + 완료 시에만 cache.set
+            # 로직 덕분에 부분 결과가 저장되지 않는다. 예외는 재전파.
+            logger.info("[%s] LLM 스트림이 클라이언트에 의해 취소됨", code)
+            raise
+
+    return StreamingResponse(
+        event_generator(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",  # nginx 등 리버스프록시 버퍼링 차단
+        },
+    )

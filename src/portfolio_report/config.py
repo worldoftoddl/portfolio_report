@@ -56,6 +56,12 @@ class Settings(BaseSettings):
     # --- Benchmark (for future regression use) ---
     benchmark_symbol: str = "KS11"
 
+    # --- Web API (Phase 6d) ---
+    cors_origins: list[str] = Field(
+        default_factory=lambda: ["http://localhost:3000"]
+    )
+    api_concurrency_limit: int = 5
+
 
 _settings: Settings | None = None
 

@@ -118,5 +118,31 @@ def _default_report_path(ext: str) -> Path:
     return reports / f"portfolio_{stamp}.{ext}"
 
 
+@app.command()
+def serve(
+    host: Annotated[str, typer.Option("--host", help="바인딩 호스트")] = "127.0.0.1",
+    port: Annotated[int, typer.Option("--port", help="바인딩 포트")] = 8000,
+    reload: Annotated[
+        bool, typer.Option("--reload", help="코드 변경 시 자동 재시작 (개발용)")
+    ] = False,
+) -> None:
+    """FastAPI 서버를 실행합니다 (`pip install -e '.[web]'` 필요)."""
+    try:
+        import uvicorn
+    except ImportError as e:
+        raise typer.BadParameter(
+            "uvicorn이 설치되어 있지 않습니다. `uv sync --extra web`으로 설치하세요."
+        ) from e
+
+    console.print(f"[bold cyan]서버 시작:[/bold cyan] http://{host}:{port}")
+    uvicorn.run(
+        "portfolio_report.api.app:create_app",
+        host=host,
+        port=port,
+        reload=reload,
+        factory=True,
+    )
+
+
 if __name__ == "__main__":
     app()

@@ -47,12 +47,14 @@ class PortfolioAnalyzer:
         price_client: PriceClient | None = None,
         resolver: TickerResolver | None = None,
         llm_client: BaseLLMClient | None = None,
+        use_llm_cache: bool = True,
     ):
         self.settings = settings or get_settings()
         self._naver = naver_client
         self._price = price_client or PriceClient()
         self._resolver = resolver or TickerResolver(self.settings)
         self._llm = llm_client
+        self._use_llm_cache = use_llm_cache
         self._warnings: list[str] = []
 
     def analyze(
@@ -184,7 +186,7 @@ class PortfolioAnalyzer:
             try:
                 from portfolio_report.llm.claude_client import ClaudeClient
 
-                self._llm = ClaudeClient(self.settings)
+                self._llm = ClaudeClient(self.settings, use_cache=self._use_llm_cache)
             except Exception as e:
                 msg = f"LLM 초기화 실패, 해석 생략: {e}"
                 logger.warning(msg)

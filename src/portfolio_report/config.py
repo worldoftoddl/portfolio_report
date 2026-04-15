@@ -37,6 +37,8 @@ class Settings(BaseSettings):
     cache_fundamental_ttl_sec: int = 86_400         # 1일
     # 종목 마스터는 거의 변하지 않음
     cache_ticker_master_ttl_sec: int = 604_800      # 7일
+    # LLM 응답 캐시 (종목+날짜+신호 hash 기반 키)
+    cache_llm_ttl_sec: int = 86_400                 # 1일
 
     cache_dir: Path = DEFAULT_CACHE_DIR
 

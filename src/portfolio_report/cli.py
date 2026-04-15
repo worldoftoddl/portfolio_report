@@ -51,7 +51,11 @@ def analyze(
             help="쉼표 구분 기술적 지표 (ichimoku,rsi,macd,bb). 지정 시 HTML이 기본 출력",
         ),
     ] = "",
-    no_llm: Annotated[bool, typer.Option("--no-llm", help="LLM 해석 생략 (Phase 4b)")] = False,
+    no_llm: Annotated[bool, typer.Option("--no-llm", help="LLM 해석 생략")] = False,
+    no_llm_cache: Annotated[
+        bool,
+        typer.Option("--no-llm-cache", help="LLM 응답 캐시 우회 (디버깅/프롬프트 튜닝)"),
+    ] = False,
     output_format: Annotated[
         str,
         typer.Option("--format", "-f", help="출력 형식: console, markdown, html"),
@@ -77,7 +81,7 @@ def analyze(
         console.print(f"[bold]기술적 지표:[/bold] {indicator_list}")
 
     with console.status("[cyan]포트폴리오 데이터 수집 및 집계 중..."):
-        analyzer = PortfolioAnalyzer()
+        analyzer = PortfolioAnalyzer(use_llm_cache=not no_llm_cache)
         report = analyzer.analyze(
             inputs,
             indicators=indicator_list,

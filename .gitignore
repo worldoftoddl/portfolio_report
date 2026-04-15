@@ -15,6 +15,7 @@ data/cache/
 data/reports/
 *.html
 !examples/*.html
+!tests/fixtures/**/*.html
 
 # IDE
 .vscode/

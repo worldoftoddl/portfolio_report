@@ -77,7 +77,11 @@ def analyze(
 
     with console.status("[cyan]포트폴리오 데이터 수집 및 집계 중..."):
         analyzer = PortfolioAnalyzer()
-        report = analyzer.analyze(inputs, indicators=indicator_list)
+        report = analyzer.analyze(
+            inputs,
+            indicators=indicator_list,
+            use_llm=not no_llm,
+        )
 
     if output_format == "console":
         render_console(report, console)

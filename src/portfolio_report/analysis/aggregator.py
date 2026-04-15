@@ -25,6 +25,7 @@ from portfolio_report.config import Settings, get_settings
 from portfolio_report.data.naver_client import NaverClient
 from portfolio_report.data.price_client import PriceClient
 from portfolio_report.data.ticker_resolver import TickerResolver
+from portfolio_report.llm.base import BaseLLMClient, TechnicalContext
 from portfolio_report.models.holding import Holding, HoldingInput
 from portfolio_report.models.portfolio import (
     Portfolio,
@@ -45,11 +46,13 @@ class PortfolioAnalyzer:
         naver_client: NaverClient | None = None,
         price_client: PriceClient | None = None,
         resolver: TickerResolver | None = None,
+        llm_client: BaseLLMClient | None = None,
     ):
         self.settings = settings or get_settings()
         self._naver = naver_client
         self._price = price_client or PriceClient()
         self._resolver = resolver or TickerResolver(self.settings)
+        self._llm = llm_client
         self._warnings: list[str] = []
 
     def analyze(
@@ -57,6 +60,7 @@ class PortfolioAnalyzer:
         inputs: list[HoldingInput],
         indicators: list[Indicator] | None = None,
         ohlcv_days: int = 180,
+        use_llm: bool = True,
     ) -> PortfolioReport:
         holdings = self._resolve_all(inputs)
         self._fetch_all(holdings)
@@ -64,6 +68,8 @@ class PortfolioAnalyzer:
         analyses: list[TechnicalAnalysis] = []
         if indicators:
             analyses = self._compute_technicals(holdings, indicators, ohlcv_days)
+            if use_llm:
+                self._attach_llm_explanations(holdings, analyses)
         return PortfolioReport(
             generated_at=datetime.now(),
             portfolio=Portfolio(holdings=holdings),
@@ -168,6 +174,51 @@ class PortfolioAnalyzer:
                 )
             )
         return analyses
+
+    def _attach_llm_explanations(
+        self,
+        holdings: list[Holding],
+        analyses: list[TechnicalAnalysis],
+    ) -> None:
+        if self._llm is None:
+            try:
+                from portfolio_report.llm.claude_client import ClaudeClient
+
+                self._llm = ClaudeClient(self.settings)
+            except Exception as e:
+                msg = f"LLM 초기화 실패, 해석 생략: {e}"
+                logger.warning(msg)
+                self._warnings.append(msg)
+                return
+
+        holdings_by_code = {h.code: h for h in holdings}
+        for analysis in analyses:
+            holding = holdings_by_code.get(analysis.code)
+            if holding is None or holding.stock is None:
+                continue
+            tail_df = None
+            try:
+                tail_df = self._price.get_ohlcv(holding.code, days=30)
+            except Exception:
+                pass
+            price_tail: list[dict] = []
+            if tail_df is not None and not tail_df.empty:
+                price_tail = [
+                    {**row, "Date": idx.strftime("%Y-%m-%d")}
+                    for idx, row in tail_df.tail(10).to_dict(orient="index").items()
+                ]
+            ctx = TechnicalContext(
+                code=holding.code,
+                name=holding.name,
+                current_price=holding.stock.current_price,
+                signals=analysis.indicators,
+                price_tail=price_tail,
+            )
+            try:
+                analysis.llm_explanation = self._llm.explain_technical(ctx)
+            except Exception as e:
+                logger.warning("[%s] LLM 해석 실패: %s", holding.code, e)
+                analysis.llm_explanation = f"(LLM 해석 실패: {e})"
 
     def _aggregate(self, holdings: list[Holding]) -> PortfolioAggregates:
         per, per_cov = weighted_per(holdings)

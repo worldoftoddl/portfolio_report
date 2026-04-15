@@ -22,6 +22,7 @@ from portfolio_report.analysis.valuation import (
     weighted_per,
 )
 from portfolio_report.config import Settings, get_settings
+from portfolio_report.data.fundamental_fallback import FundamentalFallbackClient
 from portfolio_report.data.naver_client import NaverClient
 from portfolio_report.data.price_client import PriceClient
 from portfolio_report.data.ticker_resolver import TickerResolver
@@ -47,6 +48,7 @@ class PortfolioAnalyzer:
         price_client: PriceClient | None = None,
         resolver: TickerResolver | None = None,
         llm_client: BaseLLMClient | None = None,
+        fundamental_fallback: FundamentalFallbackClient | None = None,
         use_llm_cache: bool = True,
     ):
         self.settings = settings or get_settings()
@@ -54,6 +56,7 @@ class PortfolioAnalyzer:
         self._price = price_client or PriceClient()
         self._resolver = resolver or TickerResolver(self.settings)
         self._llm = llm_client
+        self._fundamental = fundamental_fallback or FundamentalFallbackClient()
         self._use_llm_cache = use_llm_cache
         self._warnings: list[str] = []
 
@@ -134,9 +137,46 @@ class PortfolioAnalyzer:
         )
 
     def _fallback_stock(self, holding: Holding) -> StockInfo:
-        """네이버 전체 실패 시 최소한 현재가만이라도 FDR로 시도."""
-        price = self._price.get_current_price_fallback(holding.code)
-        return StockInfo(code=holding.code, name=holding.name, current_price=price)
+        """네이버 전체 실패 시 pykrx/FDR로 펀더멘털과 베타까지 최대한 복구.
+
+        - 현재가: FDR OHLCV 마지막 종가
+        - PER/EPS: pykrx get_market_fundamental
+        - 베타: KS11 대비 252일 일간수익률 회귀
+          (코스닥 종목은 벤치마크 불일치 warning 포함)
+        각 필드는 독립적으로 실패할 수 있으며, 부분 복구를 허용.
+        """
+        code = holding.code
+        price = self._price.get_current_price_fallback(code)
+        fundamental = self._fundamental.get_fundamental(code)
+        market = self._detect_market(code)
+        beta_result = self._fundamental.compute_beta(code, market=market)
+        for w in beta_result.warnings:
+            self._warnings.append(w)
+
+        self._warnings.append(
+            f"[{code} {holding.name}] 펀더멘털 폴백 사용 — "
+            f"price={price is not None}, per={fundamental.get('per') is not None}, "
+            f"beta={beta_result.value is not None}"
+        )
+        return StockInfo(
+            code=code,
+            name=holding.name,
+            current_price=price,
+            per=fundamental.get("per"),
+            eps=fundamental.get("eps"),
+            beta=beta_result.value,
+        )
+
+    def _detect_market(self, code: str) -> str | None:
+        """ticker resolver 마스터에서 시장 구분 조회 (KOSPI/KOSDAQ/KONEX)."""
+        try:
+            master = self._resolver.master
+            row = master.loc[master["code"] == code]
+            if not row.empty:
+                return str(row.iloc[0].get("market", "")).upper() or None
+        except Exception:
+            pass
+        return None
 
     def _compute_technicals(
         self,

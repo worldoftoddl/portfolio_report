@@ -93,6 +93,21 @@ class TestOhlcvEndpoint:
         assert "rsi" in indicators
         assert "bb" in indicators
 
+    def test_signals_field_populated_when_indicators_requested(self, client):
+        """지표 요청 시 `signals`(마지막 행 기반 신호 요약)도 응답에 포함."""
+        resp = client.get("/api/stock/005930/ohlcv?days=30&indicators=rsi")
+        assert resp.status_code == 200
+        body = resp.json()
+        assert "signals" in body
+        # 40일 mock 데이터로는 RSI_14가 유효값 산출 가능 → signals.rsi 존재
+        assert "rsi" in body["signals"]
+        assert "value" in body["signals"]["rsi"]
+
+    def test_signals_empty_when_no_indicators(self, client):
+        resp = client.get("/api/stock/005930/ohlcv")
+        assert resp.status_code == 200
+        assert resp.json()["signals"] == {}
+
     def test_unknown_indicator_returns_400(self, client):
         resp = client.get("/api/stock/005930/ohlcv?indicators=bogus")
         assert resp.status_code == 400

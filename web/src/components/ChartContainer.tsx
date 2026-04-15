@@ -3,6 +3,8 @@
 import {
   CandlestickSeries,
   HistogramSeries,
+  LineSeries,
+  LineStyle,
   createChart,
   type IChartApi,
   type Time,
@@ -10,25 +12,37 @@ import {
 import { useEffect, useRef } from "react";
 
 import { useOhlcv } from "@/hooks/useOhlcv";
+import type { IndicatorSeries, LinePoint } from "@/types/api";
+
+interface ChartContainerProps {
+  code: string;
+  days?: number;
+  indicators?: string[];
+}
+
+const DEFAULT_INDICATORS = ["ichimoku", "bb", "rsi", "macd"];
 
 /**
- * 삼성전자 캔들스틱 + 거래량 패널 차트.
+ * 종목 차트 — 캔들스틱 + 거래량 + 지표 오버레이/서브플롯.
  *
- * ## 학습 포인트
- *
- * 1. `'use client'`: `createChart`가 브라우저 canvas API를 쓰므로 서버 컴포넌트 불가.
- * 2. `useRef`로 마운트된 DOM div를 차트 컨테이너로 전달.
- * 3. `useEffect` 클린업 — `return () => chart.remove()`이 없으면 React Strict Mode
- *    (개발 기본 활성)에서 effect가 두 번 실행되어 차트 두 개가 겹쳐 렌더링된다.
- * 4. 데이터 페칭은 `useOhlcv`(TanStack Query)로 추출 — ChartContainer는 렌더링만 담당.
+ * Pane 배치:
+ *   0 = 메인 (캔들 + ichimoku + bb 오버레이)
+ *   1 = 거래량 히스토그램
+ *   2 = RSI (70/30 기준선)
+ *   3 = MACD (macd line + signal + histogram)
  */
-export default function ChartContainer() {
+export default function ChartContainer({
+  code,
+  days = 180,
+  indicators = DEFAULT_INDICATORS,
+}: ChartContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { data: response, error, isPending } = useOhlcv("005930", 180);
-  const ohlcv = response?.series.ohlcv;
+  const { data: response, error, isPending } = useOhlcv(code, days, indicators);
 
   useEffect(() => {
-    if (!containerRef.current || !ohlcv || ohlcv.length === 0) return;
+    if (!containerRef.current || !response) return;
+    const ohlcv = response.series.ohlcv;
+    if (ohlcv.length === 0) return;
 
     const chart: IChartApi = createChart(containerRef.current, {
       autoSize: true,
@@ -44,6 +58,7 @@ export default function ChartContainer() {
       timeScale: { borderColor: "#d1d5db" },
     });
 
+    // --- 메인 pane: 캔들 ---
     const candle = chart.addSeries(CandlestickSeries, {
       upColor: "#dc2626",
       downColor: "#2563eb",
@@ -62,6 +77,37 @@ export default function ChartContainer() {
       })),
     );
 
+    // 메인 pane 오버레이: ichimoku, bb
+    const ind: IndicatorSeries = response.series.indicators ?? {};
+    if (ind.ichimoku) {
+      addLine(chart, ind.ichimoku.tenkan, 0, { color: "#ea580c", lineWidth: 1 });
+      addLine(chart, ind.ichimoku.kijun, 0, { color: "#0ea5e9", lineWidth: 1 });
+      addLine(chart, ind.ichimoku.span_a, 0, {
+        color: "#86efac",
+        lineWidth: 1,
+        lineStyle: LineStyle.Dotted,
+      });
+      addLine(chart, ind.ichimoku.span_b, 0, {
+        color: "#fca5a5",
+        lineWidth: 1,
+        lineStyle: LineStyle.Dotted,
+      });
+    }
+    if (ind.bb) {
+      addLine(chart, ind.bb.upper, 0, {
+        color: "#9ca3af",
+        lineWidth: 1,
+        lineStyle: LineStyle.Dashed,
+      });
+      addLine(chart, ind.bb.mid, 0, { color: "#6b7280", lineWidth: 1 });
+      addLine(chart, ind.bb.lower, 0, {
+        color: "#9ca3af",
+        lineWidth: 1,
+        lineStyle: LineStyle.Dashed,
+      });
+    }
+
+    // --- 거래량 pane (1) ---
     chart.addPane();
     const volume = chart.addSeries(
       HistogramSeries,
@@ -80,28 +126,81 @@ export default function ChartContainer() {
       })),
     );
 
+    // --- RSI pane (2) ---
+    if (ind.rsi) {
+      chart.addPane();
+      const rsi = chart.addSeries(
+        LineSeries,
+        { color: "#7c3aed", lineWidth: 1, priceScaleId: "right" },
+        2,
+      );
+      rsi.setData(toLineData(ind.rsi));
+      rsi.createPriceLine({
+        price: 70,
+        color: "#d1d5db",
+        lineStyle: LineStyle.Dashed,
+        axisLabelVisible: true,
+        title: "",
+        lineWidth: 1,
+      });
+      rsi.createPriceLine({
+        price: 30,
+        color: "#d1d5db",
+        lineStyle: LineStyle.Dashed,
+        axisLabelVisible: true,
+        title: "",
+        lineWidth: 1,
+      });
+    }
+
+    // --- MACD pane (3) ---
+    if (ind.macd) {
+      chart.addPane();
+      const macdLine = chart.addSeries(
+        LineSeries,
+        { color: "#2563eb", lineWidth: 1 },
+        3,
+      );
+      macdLine.setData(toLineData(ind.macd.macd));
+      const signalLine = chart.addSeries(
+        LineSeries,
+        { color: "#dc2626", lineWidth: 1 },
+        3,
+      );
+      signalLine.setData(toLineData(ind.macd.signal));
+      const hist = chart.addSeries(
+        HistogramSeries,
+        { color: "#94a3b8", priceScaleId: "" },
+        3,
+      );
+      hist.setData(
+        ind.macd.hist.map((p) => ({
+          time: p.time as Time,
+          value: p.value,
+          color: p.value >= 0 ? "#86efac" : "#fca5a5",
+        })),
+      );
+    }
+
     chart.timeScale().fitContent();
 
     return () => {
       chart.remove();
     };
-  }, [ohlcv]);
+  }, [response]);
 
   if (error) {
     return (
       <div className="rounded border border-red-300 bg-red-50 p-4 text-sm text-red-700">
         차트 데이터 로딩 실패: {error.message}
-        <div className="mt-2 text-xs text-red-600">
-          FastAPI 서버(localhost:8000)가 실행 중인지 확인하세요.
-        </div>
       </div>
     );
   }
 
   if (isPending) {
     return (
-      <div className="flex h-[500px] items-center justify-center text-gray-500">
-        데이터 로딩 중…
+      <div className="flex h-[600px] items-center justify-center text-gray-500">
+        차트 데이터 로딩 중…
       </div>
     );
   }
@@ -109,7 +208,22 @@ export default function ChartContainer() {
   return (
     <div
       ref={containerRef}
-      className="h-[500px] w-full rounded border border-gray-200"
+      className="h-[600px] w-full rounded border border-gray-200"
     />
   );
+}
+
+function toLineData(points: LinePoint[]) {
+  return points.map((p) => ({ time: p.time as Time, value: p.value }));
+}
+
+function addLine(
+  chart: IChartApi,
+  points: LinePoint[],
+  paneIndex: number,
+  options: Parameters<IChartApi["addSeries"]>[1],
+) {
+  const series = chart.addSeries(LineSeries, options, paneIndex);
+  series.setData(toLineData(points));
+  return series;
 }

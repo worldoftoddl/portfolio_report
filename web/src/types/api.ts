@@ -9,13 +9,54 @@ export interface OhlcvPoint {
   volume: number;
 }
 
+export interface LinePoint {
+  time: string;
+  value: number;
+}
+
+export interface IndicatorSeries {
+  rsi?: LinePoint[];
+  macd?: {
+    macd: LinePoint[];
+    signal: LinePoint[];
+    hist: LinePoint[];
+  };
+  bb?: {
+    upper: LinePoint[];
+    mid: LinePoint[];
+    lower: LinePoint[];
+  };
+  ichimoku?: {
+    tenkan: LinePoint[];
+    kijun: LinePoint[];
+    span_a: LinePoint[];
+    span_b: LinePoint[];
+  };
+}
+
 export interface TechnicalSeriesResponse {
   code: string;
   name: string;
   series: {
     ohlcv: OhlcvPoint[];
-    indicators: Record<string, unknown>;
+    indicators: IndicatorSeries;
   };
+  // 지표 요청 시 마지막 행 기반 신호 요약 (LLM 요청에 재사용)
+  signals: Record<string, Record<string, unknown>>;
+}
+
+// --- POST /api/stock/{code}/llm-explain ---
+
+export interface LLMExplainRequest {
+  name: string;
+  current_price?: number | null;
+  signals?: Record<string, Record<string, unknown>>;
+  price_tail?: Array<Record<string, unknown>>;
+}
+
+export interface LLMExplainResponse {
+  code: string;
+  explanation: string;
 }
 
 // --- POST /api/portfolio ---

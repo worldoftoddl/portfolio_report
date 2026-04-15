@@ -64,12 +64,16 @@ async def get_ohlcv(
         ) from e
 
     typed_indicators: list[Indicator] = list(indicators)  # type: ignore[assignment]
+    signals: dict = {}
     if typed_indicators:
         result = compute_indicators(df, typed_indicators)
         df = result.df
+        signals = result.signals
 
     series = to_tradingview_series(df, typed_indicators)
-    return TechnicalSeriesResponse(code=resolved.code, name=resolved.name, series=series)
+    return TechnicalSeriesResponse(
+        code=resolved.code, name=resolved.name, series=series, signals=signals
+    )
 
 
 @router.post("/{code}/llm-explain", response_model=LLMExplainResponse)

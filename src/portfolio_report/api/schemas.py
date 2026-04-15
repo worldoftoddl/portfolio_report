@@ -57,3 +57,6 @@ class TechnicalSeriesResponse(BaseModel):
     code: str
     name: str
     series: dict  # to_tradingview_series 출력
+    # 지표가 요청된 경우 마지막 행 기반 신호 요약(technical._summarize 출력).
+    # LLM 해석 요청 시 컨텍스트로 재사용할 수 있도록 함께 노출.
+    signals: dict = Field(default_factory=dict)

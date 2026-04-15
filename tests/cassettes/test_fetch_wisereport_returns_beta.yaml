@@ -1,0 +1,1164 @@
+interactions:
+- request:
+    body: ''
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Accept-Language:
+      - ko-KR,ko;q=0.9,en;q=0.8
+      Connection:
+      - keep-alive
+      Host:
+      - navercomp.wisereport.co.kr
+      Referer:
+      - https://finance.naver.com/
+      User-Agent:
+      - REDACTED
+    method: GET
+    uri: https://navercomp.wisereport.co.kr/v2/company/c1010001.aspx?cmp_cd=005930
+  response:
+    body:
+      string: "\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"
+        \"http://www.w3.org/TR/html4/loose.dtd\">\r\n<html lang=\"ko\">\r\n<head>\r\n\t<meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t<title>\uC628\uB77C\uC778\uAE30\uC5C5\uC815\uBCF4
+        - \uAE30\uC5C5\uBAA8\uB2C8\uD130 - \uAE30\uC5C5\uAC1C\uC694(\uC0BC\uC131\uC804\uC790)</title>\r\n\t<link
+        rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n\t<script language=\"javascript\"
+        src=\"/include/domain.js\" type=\"text/javascript\"></script>\r\n\t<!--[if
+        (!IE) | (gt IE 8)]>\r\n    \t<meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1, maximum-scale=1, user-scalable=no\" />\r\n    <![endif]-->\r\n\t<!--[if
+        IE 6]>\r\n            <link href=\"/include/only_ie6.css\" type=\"text/css\"
+        rel=\"stylesheet\"/>\r\n        <![endif]-->\r\n\t<!--[if lt IE 8]>\r\n            <link
+        href=\"/include/lt_ie8.css\" type=\"text/css\" rel=\"stylesheet\"/>\r\n        <![endif]-->\r\n\t<link
+        href=\"/v2/include/css?v=q7Pq73b9jj00gmFmOVUSxzXv_5FtLNW9qxkqFwJqh-g1\" rel=\"stylesheet\"/>\r\n\r\n\t<link
+        href=\"/v2/include/css1?v=2Kc54WAY0-YKwI0WYHBphRe4FmbyttZ0_0A_hAhAjHc1\" rel=\"stylesheet\"/>\r\n\r\n
+        \   <link href=\"/v2/include/csscrawler?v=6j20PRFQZOF_cQY1MTrT5fNOJtefGKtxcpjZjx7qRS01\"
+        rel=\"stylesheet\"/>\r\n\r\n\t<script src=\"/v2/include/js?v=0c8ajiacdkv6IxVl6VTa7kCzpqvHCKHlszIi9PjnXak1\"></script>\r\n\r\n\t<link
+        href=\"/v2/include/sitecss?v=NO2scjWyURrcKuALmuSFc8_aZjVlTCHcs6O-cPNOjtk1\"
+        rel=\"stylesheet\"/>\r\n\r\n\t<!-- Global site tag (gtag.js) - Google Analytics
+        -->\r\n\t<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-74989022-7\"></script>\r\n\t<script>\r\n\t
+        \ window.dataLayer = window.dataLayer || [];\r\n\t  function gtag(){dataLayer.push(arguments);}\r\n\t
+        \ gtag('js', new Date());\r\n\r\n\t  gtag('config', 'UA-74989022-7');\r\n\t</script>\r\n</head>\r\n<body
+        oncontextmenu=\"return false\">\r\n<div class=\"body-section\">\r\n\t<form
+        id=\"Form1\" method=\"post\">\r\n\t\t<div id=\"all_contentWrap\">\r\n\t\t\t<!--all_contentWrap-->\r\n\t\t\t<div
+        id=\"contentWrap\">\r\n\t\t\t\t<input type=\"hidden\" id=\"printZone\"><input
+        type=\"hidden\" id=\"cssZone\">\r\n\t\t\t\t<!-- search -->\r\n\t\t\t\t<div
+        id=\"header-menu\">\r\n\t\t\t\t\t<input name=\"hd_cmp_cd\" type=\"hidden\"
+        id=\"hd_cmp_cd\" value=\"005930\" />\r\n\t\t\t\t\t<input type=\"hidden\" id=\"cmp_cd\"
+        />\r\n\t\t\t\t\t<input type=\"hidden\" id=\"hidCMP_CD\" name=\"hidCMP_CD\"
+        value=\"005930\" />\r\n\t\t\t\t\t<input type=\"hidden\" id=\"hiddenfinGubun\"
+        value=\"IFRSL\" />\r\n\t\t\t\t\t<input type=\"hidden\" id=\"chartType\" name=\"chartType\"
+        value=\"svg\" />\r\n\t\t\t\t\t\r\n<div class=\"wrapper-menu\">\r\n\t<span
+        class=\"blank\"></span>\r\n\t<dl class=\"menu\">\r\n\t\t<dt class='on'><a
+        href=\"../company/c1010001.aspx?cmp_cd=005930&cn=\">\uAE30\uC5C5\uD604\uD669</a>
+        </dt>\r\n\t\t<dt class=' line-left'><a href=\"../company/c1020001.aspx?cmp_cd=005930&cn=\">\uAE30\uC5C5\uAC1C\uC694</a></dt>\r\n\t\t<dt
+        class=' line-left'><a href=\"../company/c1030001.aspx?cmp_cd=005930&cn=\">\uC7AC\uBB34\uBD84\uC11D</a></dt>\r\n\t\t<dt
+        class=' line-left'><a href=\"../company/c1040001.aspx?cmp_cd=005930&cn=\">\uD22C\uC790\uC9C0\uD45C</a></dt>\r\n\t\t<dt
+        class=' line-left'><a href=\"../company/c1050001.aspx?cmp_cd=005930&cn=\">\uCEE8\uC13C\uC11C\uC2A4</a></dt>\r\n\t\t<dt
+        class=' line-left'><a href=\"../company/c1060001.aspx?cmp_cd=005930&cn=\">\uC5C5\uC885\uBD84\uC11D</a></dt>\r\n\t\t<dt
+        class=' line-left'><a href=\"../company/c1090001.aspx?cmp_cd=005930&cn=\">\uC139\uD130\uBD84\uC11D</a></dt>\r\n\t\t<dt
+        class=' line-left'><a href=\"../company/c1070001.aspx?cmp_cd=005930&cn=\">\uC9C0\uBD84\uD604\uD669</a></dt>\r\n\t\t<dt
+        class=\"right\"><a class=\"print\" href=\"javascript:winPrint('720');\"><span
+        class=\"icon-sprite icon-print\"></span>\uC778\uC1C4</a></dt>\r\n\t</dl>\r\n</div>\r\n<div
+        class=\"table-menu-shadow\"></div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t\t<div id=\"pArea\"
+        class=\"MinWidthContainer\">\r\n\t\t\t\t\t\r\n<div class=\"wrapper-table\">\r\n\t<div
+        class=\"cmp-table-div\">\r\n\t\t<table class=\"cmp-table\">\r\n\t\t\t<tr class=\"cmp-table-row\">\r\n\t\t\t\t<td
+        class=\"cmp-table-cell td0101\">\r\n\t\t\t\t\t<dl>\r\n\t\t\t\t\t\t<dt>\r\n\t\t\t\t\t\t\t<span
+        class=\"name\">\uC0BC\uC131\uC804\uC790</span>\r\n\t\t\t\t\t\t\t<a class=\"cEm\"
+        title=\"[\uD648\uD398\uC774\uC9C0] www.samsung.com/sec\" href=\"http://www.samsung.com/sec\"
+        target=\"comPage\"><img src=\"/images/icon_home.gif\" hspace=\"3\" align=\"absmiddle\"></a>\r\n\t\t\t\t\t\t\t<a
+        class=\"cEm\" title=\"[\uB300\uD45C\uC804\uD654] 031-200-1114 &#13;[\uC8FC\uC2DD\uB2F4\uB2F9]
+        02-2255-9000 \"><img src=\"/images/icon_tel.gif\" hspace=\"1\" align=\"absmiddle\"></a>\r\n\t\t\t\t\t\t\t<b
+        class=\"num\">005930</b>\r\n\t\t\t\t\t\t</dt>\r\n\t\t\t\t\t\t<dt class=\"line-left\">SamsungElec</dt>\r\n\t\t\t\t\t\t<dt
+        class=\"line-left\">KOSPI : \uCF54\uC2A4\uD53C \uC804\uAE30\xB7\uC804\uC790</dt>\r\n\t\t\t\t\t\t<dt
+        class=\"line-left\">WICS : \uBC18\uB3C4\uCCB4\uC640\uBC18\uB3C4\uCCB4\uC7A5\uBE44</dt>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr
+        class=\"cmp-table-row\">\r\n\t\t\t\t<td class=\"cmp-table-cell td0201\">\r\n\t\t\t\t\t<div>&nbsp;</div>\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr
+        class=\"cmp-table-row\">\r\n\t\t\t\t<td class=\"cmp-table-cell td0301\">\r\n\t\t\t\t\t<dl>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<dt>EPS
+        <b class=\"num\">6,564</b></dt>\r\n\t\t\t\t\t\t<dt class=\"line-left\">BPS
+        <b class=\"num\">63,997</b></dt>\r\n\t\t\t\t\t\t<dt class=\"line-left\">PER
+        <b class=\"num\">31.46</b></dt>\r\n\t\t\t\t\t\t<dt class=\"line-left\">\uC5C5\uC885PER
+        <b class=\"num\">24.08</b></dt>\r\n\t\t\t\t\t\t<dt class=\"line-left\">PBR
+        <b class=\"num\">3.23</b></dt>\r\n\t\t\t\t\t\t<dt class=\"line-left\">\uD604\uAE08\uBC30\uB2F9\uC218\uC775\uB960
+        <b class=\"num\">0.81%</b></dt>\r\n\t\t\t\t\t\t<dt class=\"right\">12\uC6D4
+        \uACB0\uC0B0</dt>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t</div>\r\n</div>\r\n<div
+        class=\"exp\">\r\n\t<dl>\r\n\t\t<dt class=\"left\">* <b>PER</b>: \uC804\uC77C
+        \uBCF4\uD1B5\uC8FC \uC218\uC815\uC8FC\uAC00 / \uCD5C\uADFC \uBD84\uAE30 EPS(TTM)</dt>\r\n\t\t<dt
+        class=\"right\">* <b>\uD604\uAE08\uBC30\uB2F9\uC218\uC775\uB960</b>: \uCD5C\uADFC
+        \uACB0\uC0B0 \uC218\uC815DPS(\uD604\uAE08) / \uC804\uC77C \uBCF4\uD1B5\uC8FC
+        \uC218\uC815\uC8FC\uAC00</dt>\r\n\t\t<dt class=\"left\">* <b>PBR</b>: \uC804\uC77C
+        \uBCF4\uD1B5\uC8FC \uC218\uC815\uC8FC\uAC00 / \uCD5C\uADFC \uBD84\uAE30 BPS(TTM)</dt>\r\n\t\t<dt
+        class=\"right\">* <b>WICS</b>: WISE Industry Classification Standard, modified
+        by FnGuide</dt>\r\n\t\t<dt class=\"left\">* <b>TTM</b>: \uCD5C\uADFC 4\uBD84\uAE30
+        \uD569\uC0B0</dt>\r\n\t\t<dt class=\"right\">* TTM \uB370\uC774\uD130\uAC00
+        \uC5C6\uB294 \uACBD\uC6B0, \uCD5C\uADFC \uACB0\uC0B0 \uB370\uC774\uD130\uB85C
+        \uD45C\uC2DC\uB429\uB2C8\uB2E4.</dt>\r\n\t\t<dt class=\"clear\">* PER, PBR\uAC12\uC774
+        (-)\uC77C \uACBD\uC6B0, N/A\uB85C \uD45C\uAE30\uB429\uB2C8\uB2E4.</dt>\r\n\t</dl>\r\n</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"PageContainer\">\r\n\t\t\t\t\t\t<div class=\"PageContentContainer\">\r\n\t\t\t\t\t\t\t<div
+        id=\"wrapper\" class=\"all\">\r\n\t\t\t\t\t\t\t\t<!-- wrapper -->\r\n\t\t\t\t\t\t\t\t<!--
+        company info -->\r\n\t\t\t\t\t\t\t\t<h5 class=\"blind\">\uC694\uC57D\uC815\uBCF4</h5>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"wrapper-row\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"fl_le half\">\r\n\t\t\t\t\t\t\t\t\t\t<div
+        class=\"header-table\">\r\n\t\t\t\t\t\t\t\t\t\t\t<dl class=\"header-table-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"header-table-cell\"><h5><span>\uC2DC\uC138</span> \uBC0F \uC8FC\uC8FC\uD604\uD669</h5></dd>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"header-table-cell unit\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<p>[\uAE30\uC900:2026.04.14]</p>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t<div
+        class=\"body\">\r\n\t\t\t\t\t\t\t\t\t\t\t<table class=\"gHead\" id=\"cTB11\"
+        summary=\"\uAE30\uC5C5\uC758 \uAE30\uBCF8\uC801\uC778 \uC2DC\uC138\uC815\uBCF4(\uC8FC\uAC00/\uC804\uC77C\uB300\uBE44/\uC218\uC775\uB960,52\uC8FC\uCD5C\uACE0/\uCD5C\uC800,\uC561\uBA74\uAC00,\uAC70\uB798\uB7C9/\uAC70\uB798\uB300\uAE08,\uC2DC\uAC00\uCD1D\uC561,\uC720\uB3D9\uC8FC\uC2DD\uBE44\uC728,\uC678\uAD6D\uC778\uC9C0\uBD84\uC728,52\uC8FC\uBCA0\uD0C0,\uC218\uC775\uB960(1M/3M/6M/1Y))\uB97C
+        \uC81C\uACF5\uD569\uB2C8\uB2E4.\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<caption class=\"blind\">\uC2DC\uC138\uC815\uBCF4</caption>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<col
+        width=\"125\" />\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<col width=\"*\" />\r\n\t\t\t\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">\uC8FC\uAC00/\uC804\uC77C\uB300\uBE44/\uC218\uC775\uB960</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\"><strong>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t206,500</strong>\uC6D0
+        /\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"cUp\">+5,500\uC6D0</span> /
+        <span class=\"cUp\">+2.74%</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">52Weeks \uCD5C\uACE0/\uCD5C\uC800</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t223,000\uC6D0 /\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t53,700\uC6D0\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">\uC561\uBA74\uAC00</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t100\uC6D0\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">\uAC70\uB798\uB7C9/\uAC70\uB798\uB300\uAE08</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t23,672,100\uC8FC /\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t49,231\uC5B5\uC6D0\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">\uC2DC\uAC00\uCD1D\uC561</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t12,072,565\uC5B5\uC6D0\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">52\uC8FC\uBCA0\uD0C0</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t1.20\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">\uBC1C\uD589\uC8FC\uC2DD\uC218/\uC720\uB3D9\uBE44\uC728</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t5,846,278,608\uC8FC / 76.13%\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt\">\uC678\uAD6D\uC778\uC9C0\uBD84\uC728</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t49.23%</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"txt noline-bottom\">\uC218\uC775\uB960 <span class=\"span-sub\">(1M/3M/6M/1Y)</span></th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num noline-bottom\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"cUp\">+12.53%</span>/
+        <span class=\"cUp\">+47.18%</span>/ <span class=\"cUp\">+125.44%</span>/ <span
+        class=\"cUp\">+267.44%</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t\t\t<dl
+        class=\"annotation anno01\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<dd class=\"section01
+        cursor\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uC218\uC815\uC8FC\uAC00(\uCC28\uD2B8\uD3EC\uD568), \uBCF4\uD1B5\uC8FC \uAE30\uC900,
+        * 52\uC8FC\uBCA0\uD0C0: \uC8FC\uAC04\uC218\uC775\uB960 \uAE30\uC900</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</dd>\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"fl_ri half\">\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"header-table empty\"></div>\r\n\t\t\t\t\t\t\t\t\t\t<div
+        class=\"body\">\r\n\t\t\t\t\t\t\t\t\t\t\t<div class='gHead' id='gHeadCt1'>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<h6
+        class=\"spanCT\">\uC8FC\uAC00/\uC0C1\uB300\uC218\uC775\uB960</h6>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        style=\"position:absolute; top:-2px; right:10px;\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+        class=\"btn_chart icon-sprite icon-chart1 on\" data-flag=\"2\" title=\"\uC218\uC815\uC8FC\uAC00/\uC0C1\uB300\uC218\uC775\uB960\">\uC8FC\uAC00/\uC0C1\uB300\uC218\uC775\uB960</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+        class=\"btn_chart icon-sprite icon-chart2\" data-flag=\"1\" title=\"\uC8FC\uAC00/\uAC70\uB798\uB300\uAE08\">\uC8FC\uAC00/\uAC70\uB798\uB300\uAE08</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a
+        class=\"btn_chart icon-sprite icon-chart3\" data-flag=\"3\" title=\"\uC678\uAD6D\uC778\uC9C0\uBD84\uC728/\uAE30\uAD001\uAC1C\uC6D4\uB204\uC801\uC21C\uB9E4\uC218\">\uC678\uAD6D\uC778\uC9C0\uBD84\uC728/\uAE30\uAD001\uAC1C\uC6D4\uB204\uC801\uC21C\uB9E4\uC218</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"#cTB12\" class=\"blind\" style=\"float: right\"><strong>\uCC28\uD2B8
+        \uAC74\uB108\uB6F0\uAE30</strong>\"\uB370\uC774\uD130\uB97C \uCC28\uD2B8\uB85C
+        \uC81C\uACF5\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uCC28\uD2B8\uB97C \uAC74\uB108\uB6F0\uACE0
+        \uC2F6\uC740 \uACBD\uC6B0 \uC774 \uB9C1\uD06C\uB97C \uC120\uD0DD\uD558\uC2DC\uAE30
+        \uBC14\uB78D\uB2C8\uB2E4.\"</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div id='stock_price_relative_chart'
+        class='chart-container full'></div>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"clr\"></div>\r\n\t\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t\t<div class=\"fl_le
+        half\">\r\n\t\t\t\t\t\t\t\t\t\t<table class=\"gHead01 all-width\" id=\"cTB12\"
+        summary=\"\uAE30\uC5C5\uC758 \uC2E0\uC6A9\uB4F1\uAE09\uC815\uBCF4(BOND, CP)\uB97C
+        \uC81C\uACF5\uD569\uB2C8\uB2E4.\" tabindex=\"0\">\r\n\t\t\t\t\t\t\t\t\t\t\t<caption
+        class=\"blind\">\uC2E0\uC6A9\uB4F1\uAE09, BOND, CP \uBAA9\uB85D</caption>\r\n\t\t\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col
+        />\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col />\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col />\r\n\t\t\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uC2E0\uC6A9\uB4F1\uAE09</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">BOND</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th scope=\"col\"
+        class=\"endLine\">CP</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">KIS</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">KR</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">NICE</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\"></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\"> &nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"fl_ri half top_disc\">\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"header-table\">\r\n\t\t\t\t\t\t\t\t\t\t\t<table
+        class=\"cmp-table\" style=\"width:100%\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr class=\"cmp-table-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"cmp-table-cell unit\" style=\"*margin-top:-2px;padding-right:0\">[\uAE30\uC900:
+        2026.04.14]</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t<table
+        class=\"gHead01 all-width\" id=\"cTB13\" summary=\"\uAE30\uC5C5\uC758 \uC8FC\uC694\uC8FC\uC8FC\uC758
+        \uBCF4\uC720 \uC8FC\uC2DD \uC218 \uBC0F (%) \uC815\uBCF4\uB97C \uC81C\uACF5\uD569\uB2C8\uB2E4.\">\r\n\t\t\t\t\t\t\t\t\t\t\t<caption
+        class=\"blind\">\uC8FC\uC694\uC8FC\uC8FC\uBA85, \uBCF4\uC720\uC8FC\uC2DD\uC218(\uBCF4\uD1B5\uC8FC),
+        \uBCF4\uC720\uC9C0\uBD84(%) \uBAA9\uB85D</caption>\r\n\t\t\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col
+        width=\"45%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col width=\"30%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col
+        width=\"25%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uC8FC\uC694\uC8FC\uC8FC</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uBCF4\uC720\uC8FC\uC2DD\uC218<span class=\"span-sub\">(\uBCF4\uD1B5)</span></th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"endLine\">\uBCF4\uC720\uC9C0\uBD84<span class=\"span-sub\">(%)</span></th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr
+        class=\"p_sJJ10\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line txt\"
+        title=\"\uC0BC\uC131\uC0DD\uBA85\uBCF4\uD5D8 \uC678 15\uC778\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"cut\"><a class='btn_moreE sJJ' data-nm='\uC0BC\uC131\uC0DD\uBA85\uBCF4\uD5D8'
+        data-grp=10><span class='icon-sprite icon-moreE'>\uC0BC\uC131\uC0DD\uBA85\uBCF4\uD5D8
+        \uC678 15\uC778</span></a> \uC0BC\uC131\uC0DD\uBA85\uBCF4\uD5D8 \uC678 15\uC778</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\">1,151,577,199&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right num\">19.70&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr
+        class=\"p_sJJ20\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line txt\"
+        title=\"\uAD6D\uBBFC\uC5F0\uAE08\uACF5\uB2E8\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"cut\"><span style='width:15px; display:inline-block'>&nbsp;</span>\uAD6D\uBBFC\uC5F0\uAE08\uACF5\uB2E8</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\">458,637,667&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right num\">7.84&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr
+        class=\"p_sJJ20\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line txt\"
+        title=\"BlackRock Fund Advisors \uC678 15\uC778\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"cut\"><a class='btn_moreE sJJ' data-nm='BlackRock Fund Advisors' data-grp=20><span
+        class='icon-sprite icon-moreE'>BlackRock Fund Advisors \uC678 15\uC778</span></a>
+        BlackRock Fund Advisors \uC678 15\uC778</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\">300,391,061&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right num\">5.14&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr
+        class=\"p_sJJ30\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line txt\"
+        title=\"\uC790\uC0AC\uC8FC\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"cut\"><span
+        style='width:15px; display:inline-block'>&nbsp;</span>\uC790\uC0AC\uC8FC</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\">73,515,304&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right num\">1.26&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t\t<script
+        type=\"text/template\" id=\"tmpl-sJJ\">\r\n\t\t\t\t\t\t\t\t\t\t\t<@ _.each(data,
+        function(v, i){ @>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr class=\"c_sJJ<@= grp_cd @>
+        c_sJJ\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line txt\"><span class=\"cut\"
+        title=\"<@= v.NEBUNA @>\"><@= v.NEBUNA @></span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><@= formatCurrency_price(v.VOLHSU, 0) @></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right num\"><@= formatCurrency_price(v.VOLHBI, 2) @></td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<@})@>\r\n\t\t\t\t\t\t\t\t\t\t</script>\r\n\t\t\t\t\t\t\t\t\t\t<p
+        class=\"disc table\">* \uBCF4\uC720\uC9C0\uBD84 : \uBCF4\uC720\uC9C0\uBD84\uC8FC\uC2DD\uC218/\uC9C0\uC218\uC0B0\uC815\uC8FC\uC2DD\uC218*100
+        </p>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"tit-empty\"></div>\r\n\t\t\t\t\t\t\t\t<div class=\"all-width\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"header-table\">\r\n\t\t\t\t\t\t\t\t\t\t<dl class=\"header-table-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"header-table-cell\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<h5><span>\uAE30\uC5C5\uAC1C\uC694</span></h5>\r\n\t\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"header-table-cell unit\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>[\uAE30\uC900:2026.04.10]</p>\r\n\t\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"cmp_comment\">\r\n\t\t\t\t\t\t\t\t\t\t<ul class=\"dot_cmp\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<li
+        class=\"dot_cmp\" data-cd=\"005930\">\uB3D9\uC0AC\uB294 1969\uB144 \uC124\uB9BD\uB41C
+        \uAE00\uB85C\uBC8C \uC804\uC790 \uAE30\uC5C5\uC73C\uB85C DX, DS \uB450 \uBD80\uBB38\uACFC
+        SDC, Harman\uC73C\uB85C \uAD6C\uC131\uB418\uC5B4 \uC788\uC74C.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<li
+        class=\"dot_cmp\" data-cd=\"005930\">TV, \uBAA8\uB2C8\uD130, \uB0C9\uC7A5\uACE0,
+        \uC138\uD0C1\uAE30, \uC5D0\uC5B4\uCEE8, \uC2A4\uB9C8\uD2B8\uD3F0, DRAM, NAND
+        Flash, OLED \uD328\uB110, \uC804\uC7A5\uBD80\uD488 \uB4F1\uC744 \uC0DD\uC0B0\xB7\uD310\uB9E4\uD558\uACE0
+        \uC788\uC74C.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<li
+        class=\"dot_cmp\" data-cd=\"005930\">AI \uAE30\uC220 \uC801\uC6A9 \uD655\uB300,
+        \uACE0\uBD80\uAC00 \uBA54\uBAA8\uB9AC \uC81C\uD488 \uAC1C\uBC1C, IT OLED \uB77C\uC778
+        \uC591\uC0B0\uC73C\uB85C \uAE30\uC220 \uD50C\uB7AB\uD3FC\uC758 \uD601\uC2E0\uC744
+        \uCD94\uAD6C\uD558\uACE0 \uC788\uC74C.</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"tit-empty\"></div>\r\n\t\t\t\t\t\t\t\t<h5><span>\uD380\uB354\uBA58\uD138</span></h5>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"fund fl_le\">\r\n\t\t\t\t\t\t\t\t\t<table class=\"gHead03\" summary=\"\uAE30\uC5C5
+        \uD380\uB354\uBA58\uD138 \uC2E4\uC801, \uCEE8\uC13C\uC11C\uC2A4 \uC815\uBCF4
+        \uB9AC\uC2A4\uD2B8\uC785\uB2C8\uB2E4.PER, PBR, PCR, EV/EBITDA, EPS, BPS, EBITDA,
+        \uD604\uAE08DPS, \uD604\uAE08\uBC30\uB2F9\uC218\uC775\uB960, \uD68C\uACC4\uAE30\uC900\uC5D0
+        \uB300\uD574\uC11C \uBCF4\uC5EC\uC8FC\uB294 \uB9AC\uC2A4\uD2B8\uC785\uB2C8\uB2E4.\">\r\n\t\t\t\t\t\t\t\t\t\t<caption
+        class=\"blind\">\uC8FC\uC694\uC9C0\uD45C, \r\n\t\t\t\t\t\t\t\t\t\t2025/12(\uC2E4\uC801),
+        \r\n\t\t\t\t\t\t\t\t\t\t2026/12(\uCEE8\uC13C\uC11C\uC2A4)\r\n\t\t\t\t\t\t\t\t\t\t</caption>\r\n\t\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t<col
+        width=\"34%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col width=\"33%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col
+        width=\"33%\" />\r\n\t\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        style=\"padding-left:0; padding-right:0\">\uC8FC\uC694\uC9C0\uD45C</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        style=\"padding-left:0; padding-right:0\">2025/12(A)</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        style=\"padding-left:0; padding-right:0\" class=\"endLine\">2026/12(E)</th>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">PER</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num\">31.46</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num noline-right\">5.72</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">PBR</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num\">3.23</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num noline-right\">2.10</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">PCR</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num\">16.32</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num noline-right\">4.76</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">EV/EBITDA</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">13.48</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num noline-right\">3.07</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">EPS</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num\">6,564\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num noline-right\">36,119\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">BPS</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num\">63,997\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num noline-right\">98,413\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">EBITDA</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num\">905,276.4\uC5B5\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num noline-right\">3,451,361.8\uC5B5\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">\uD604\uAE08DPS</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">1,668\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        noline-right\">3,101\uC6D0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">\uD604\uAE08\uBC30\uB2F9\uC218\uC775\uB960</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">0.81%</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num noline-right\">1.50%</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\" scope=\"row\">\uD68C\uACC4\uAE30\uC900</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"num\">\uC5F0\uACB0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        noline-right\">\uC5F0\uACB0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t<dl
+        class=\"annotation mb-16\">\r\n\t\t\t\t\t\t\t\t\t\t<dd class=\"section01 cursor\">\r\n\t\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>*
+        (A)\uB294 \uC2E4\uC801, (E)\uB294 \uCEE8\uC13C\uC11C\uC2A4</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"section02\">\r\n\t\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uCEE8\uC13C\uC11C\uC2A4 : \uCD5C\uADFC 3\uAC1C\uC6D4\uAC04 \uC99D\uAD8C\uC0AC
+        \uBC1C\uD45C \uCD94\uC815\uCE58\uC758 \uD3C9\uADE0</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uC9C0\uD45C \uACC4\uC0B0 \uC2DC \uC8FC\uAC00 : \uC804 \uC601\uC5C5\uC77C
+        \uBCF4\uD1B5\uC8FC \uC218\uC815\uC8FC\uAC00</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uC5F0\uACB0 \uAE30\uC5C5\uC758 \uB2F9\uAE30\uC21C\uC774\uC775 \uBC0F \uC790\uBCF8\uCD1D\uACC4\uB294
+        \uC9C0\uBC30\uC8FC\uC8FC \uAE30\uC900</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"section03\"><a href=\"javascript:;\" class=\"off\"></a></dd>\r\n\t\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"fund fl_ri\">\r\n\t\t\t\t\t\t\t\t\t<table class=\"gHead03\" id=\"earning_list\"
+        summary=\"\uAE30\uC5C5 \uD380\uB354\uBA58\uD138 \uC5B4\uB2DD\uC2A4\uD504\uB77C\uC774\uC988
+        \uC815\uBCF4 \uB9AC\uC2A4\uD2B8\uC785\uB2C8\uB2E4. \uC7AC\uBB34\uC5F0\uC6D4
+        \uBCC4 \uC601\uC5C5\uC774\uC775, \uB2F9\uAE30\uC21C\uC774\uC775\uC5D0 \uB300\uD55C
+        \uCEE8\uC13C\uC11C\uC2A4, \uC7A0\uC815\uCE58, Suprise, \uC804\uB144\uB3D9\uAE30\uB300\uBE44
+        \uC815\uBCF4\uB97C \uBCF4\uC5EC\uC8FC\uB294 \uB9AC\uC2A4\uD2B8\uC785\uB2C8\uB2E4.\">\r\n\t\t\t\t\t\t\t\t\t\t<caption
+        class=\"blind\">\uC5B4\uB2DD\uC11C\uD504\uB77C\uC774\uC988</caption>\r\n\t\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t<col
+        width=\"18%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col width=\"26%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col
+        width=\"28%\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col width=\"28%\" />\r\n\t\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<th
+        colspan=\"4\" class=\"endLine colname\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"fl_le\">\uC5B4\uB2DD\uC11C\uD504\uB77C\uC774\uC988</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        class=\"fl_ri span-sub\">* \uB2E8\uC704: \uC5B5\uC6D0, %</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</th>\r\n\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t<dl
+        class=\"annotation mb-16\">\r\n\t\t\t\t\t\t\t\t\t\t<dd class=\"section01 cursor\">\r\n\t\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uC5F0\uACB0 \uC7AC\uBB34\uC81C\uD45C: \uB2F9\uAE30\uC21C\uC774\uC775 \uC7A0\uC815\uCE58\uC5D0\uC11C
+        \u25CB\uB294 \uC804\uCCB4, \u25CF\uB294 \uC9C0\uBC30\uC8FC\uC8FC \uAE30\uC900</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"section02\">\r\n\t\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uD574\uB2F9 \uAE30\uAC04\uC758 \uD68C\uACC4\uAE30\uC900\uC740 </li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<ul
+        class=\"number\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\uCD5C\uCD08 \uACF5\uC2DC
+        \uB41C \uC7A0\uC815\uCE58 \uAE30\uC900 (\uC7A0\uC815\uCE58 \uBBF8\uBC1C\uD45C\uC2DC,
+        \uC2E4\uC801 \uAE30\uC900)</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\uC7A0\uC815\uCE58\uB97C
+        \uBCC4\uB3C4/\uC5F0\uACB0 \uB3D9\uC2DC \uBC1C\uD45C\uD560 \uACBD\uC6B0, \uC8FC
+        \uC7AC\uBB34\uC81C\uD45C \uAE30\uC900</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\uBCC4\uB3C4/\uC5F0\uACB0
+        \uD55C\uCABD\uB9CC \uBC1C\uD45C\uD560 \uACBD\uC6B0, \uC7A0\uC815\uCE58\uC758
+        \uC7AC\uBB34\uC81C\uD45C \uD68C\uACC4\uAE30\uC900\uC744 \uB530\uB984</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"section03\"><a href=\"javascript:;\" class=\"off\"></a></dd>\r\n\t\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<script
+        type=\"text/template\" id=\"tmpl-list\">\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        colspan=\"2\" class=\"center\">\uC7AC\uBB34\uC5F0\uC6D4</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(yymm, function(v, i){ if(i!=0){ @>\r\n\t\t\t\t\t\t\t\t\t\t<th class=\"<@=
+        i==yymm.length-1?'noline-right':'' @> center\"><@= RegDT(v, 0, \"/\") @></th>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class='ext-tit center' rowspan=\"4\">\uC601\uC5C5\uC774\uC775</th>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span>\uCEE8\uC13C\uC11C\uC2A4</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[0], function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @>\"><@= formatCurrency_price(v, 1)  @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span>\uC7A0\uC815\uCE58</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[1], function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @>\"><@= formatCurrency_price(v, 1)  @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span><b>Surprise</b></th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[2], function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @> <@= v <0 ? 'cDn':'cUp'@>\"><b><@=
+        formatCurrency_price(v, 2)  @></b></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><a class=\"btn_moreE earn\"><span class=\"icon-sprite icon-moreE\">\uC804\uBD84\uAE30\uB300\uBE44\uBCF4\uAE30</span></a>
+        \uC804\uB144\uB3D9\uAE30\uB300\uBE44</th>\r\n\t\t\t\t\t\t\t\t\t\t<@ _.each(data[3],
+        function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num <@= i==yymm.length?'noline-right':''
+        @>\"><@= formatCurrency_price(v, 2)  @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr
+        class=\"ext0\">\r\n\t\t\t\t\t\t\t\t\t\t<th style=\"border-top:none;\"></th>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span>\uC804\uBD84\uAE30\uB300\uBE44</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[4], function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @>\"><@= formatCurrency_price(v, 2) @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class='ext-tit  center' rowspan=\"4\">\uB2F9\uAE30\uC21C\uC774\uC775</th>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span>\uCEE8\uC13C\uC11C\uC2A4</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[5], function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @>\"><@= formatCurrency_price(v, 1)  @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span>\uC7A0\uC815\uCE58</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[6], function(v, i){ if(i!=1){ @>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @>\"><@= v==null?\"\":(type[i - 1]==0?\"\u25CB
+        \":\"\u25CF \") @> <@=  formatCurrency_price(v, 1)   @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span><b>Surprise</b></th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[7], function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @> <@= v <0 ? 'cDn':'cUp'@>\"><b><@=
+        formatCurrency_price(v, 2)  @></b></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><a class=\"btn_moreE earn\"><span class=\"icon-sprite icon-moreE\">\uC804\uBD84\uAE30\uB300\uBE44\uBCF4\uAE30</span></a>
+        \uC804\uB144\uB3D9\uAE30\uB300\uBE44</th>\r\n\t\t\t\t\t\t\t\t\t\t<@ _.each(data[8],
+        function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num <@= i==yymm.length?'noline-right':''
+        @>\"><@= formatCurrency_price(v, 2)  @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr
+        class=\"ext0\">\r\n\t\t\t\t\t\t\t\t\t\t<th style=\"border-top:none;\"></th>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        class=\"left\"><span style=\"width: 12px; display: inline-block\">&nbsp;</span>\uC804\uBD84\uAE30\uB300\uBE44</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(data[9], function(v, i){ if(i!=1){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"num
+        <@= i==yymm.length?'noline-right':'' @>\"><@= formatCurrency_price(v, 2) @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<th
+        colspan=\"2\" style=\"padding-left: 0; text-align: center\">\uC7A0\uC815\uCE58\uBC1C\uD45C(\uC608\uC815)\uC77C/\uD68C\uACC4\uAE30\uC900</th>\r\n\t\t\t\t\t\t\t\t\t\t<@
+        _.each(yymmdd, function(v, i){ if(i!=0){@>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"<@=
+        i==yymmdd.length-1?'noline-right':'' @>  line\"><@= v @></td>\r\n\t\t\t\t\t\t\t\t\t\t<@}})@>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t</script>\r\n\r\n\t\t\t\t\t\t\t\t<div
+        class=\"clr\"></div>\r\n\t\t\t\t\t\t\t\t<!--\uBC34\uB4DC\uCC28\uD2B8-->\r\n\t\t\t\t\t\t\t\t<div
+        id=\"band-chart-section\">\r\n\t\t\t\t\t\t\t\t\t<table class=\"schbox\">\r\n\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c1 left\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"bg6\"><span>\uBC34\uB4DC\uCC28\uD2B8</span></h5>\r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c2 right\" style=\"vertical-align:top\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<label
+        for=\"bandChartGubun\" class=\"blind\">\uBC34\uB4DC\uCC28\uD2B8</label>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<select
+        id=\"bandChartGubun\" name=\"bandChartGubun\" title=\"\uC7AC\uBB34\uC81C\uD45C
+        \uC885\uB958\uC120\uD0DD(\uC8FC\uC7AC\uBB34\uC81C\uD45C,K-IFRS(\uBCC4\uB3C4/\uC5F0\uACB0),K-GAAP(\uAC1C\uBCC4/\uC5F0\uACB0))\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"MAIN\">\uC8FC\uC7AC\uBB34\uC81C\uD45C</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"IFRSS\">K-IFRS(\uBCC4\uB3C4)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"IFRSL\">K-IFRS(\uC5F0\uACB0)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"GAAPS\">K-GAAP(\uAC1C\uBCC4)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"GAAPL\">K-GAAP(\uC5F0\uACB0)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t\t\t\t\t
+        \   <a href=\"javascript:;\" title=\"\uAC80\uC0C9\" id=\"hbandChartGubun\"
+        class=\"btn_search\"><span>\uAC80\uC0C9</span></a>\r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"half fl_le\">\r\n\t\t\t\t\t\t\t\t\t\t<div class='gHead' id='gHeadCt4'>\r\n\t\t\t\t\t\t\t\t\t\t\t<h6
+        class=\"spanCT\">PER \uCC28\uD2B8</h6>\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#sct5\"
+        class=\"blind\"><strong>\uCC28\uD2B8 \uAC74\uB108\uB6F0\uAE30</strong>\"\uB370\uC774\uD130\uB97C
+        \uCC28\uD2B8\uB85C \uC81C\uACF5\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uCC28\uD2B8\uB97C
+        \uAC74\uB108\uB6F0\uACE0 \uC2F6\uC740 \uACBD\uC6B0 \uC774 \uB9C1\uD06C\uB97C
+        \uC120\uD0DD\uD558\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4.\"</a>\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"per-chart\" class='chart-container'></div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"half fl_ri\">\r\n\t\t\t\t\t\t\t\t\t\t<div class='gHead' id='gHeadCt5'>\r\n\t\t\t\t\t\t\t\t\t\t\t<h6
+        class=\"spanCT\">PBR \uCC28\uD2B8</h6>\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#fingubun_text\"
+        class=\"blind\"><strong>\uCC28\uD2B8 \uAC74\uB108\uB6F0\uAE30</strong>\"\uB370\uC774\uD130\uB97C
+        \uCC28\uD2B8\uB85C \uC81C\uACF5\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uCC28\uD2B8\uB97C
+        \uAC74\uB108\uB6F0\uACE0 \uC2F6\uC740 \uACBD\uC6B0 \uC774 \uB9C1\uD06C\uB97C
+        \uC120\uD0DD\uD558\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4.\"</a>\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"pbr-chart\" class='chart-container'></div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"clr\"></div>\r\n\t\t\t\t\t\t\t\t<!--\uBC34\uB4DC\uCC28\uD2B8-->\r\n\r\n\t\t\t\t\t\t\t\t<div
+        class=\"tit-empty\"></div>\r\n\t\t\t\t\t\t\t\t<!-- Financial Summary -->\r\n\t\t\t\t\t\t\t\t<table
+        class=\"schbox\" id=\"finSummary\">\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c1 left\">\r\n\t\t\t\t\t\t\t\t\t\t\t<h5 id=\"finsum_more\"><span>Financial</span>
+        Summary</h5>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"c2
+        right\"  style=\"vertical-align:top\">\r\n\t\t\t\t\t\t\t\t\t\t\t<select name=\"finGubun\"
+        id=\"finGubun\" title=\"\uC7AC\uBB34\uAE30\uC900\uC120\uD0DD(\uC8FC\uC7AC\uBB34\uC81C\uD45C,K-IFRS(\uBCC4\uB3C4/\uC5F0\uACB0),K-GAAP(\uAC1C\uBCC4/\uC5F0\uACB0))\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"MAIN\">\uC8FC\uC7AC\uBB34\uC81C\uD45C</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"IFRSS\">K-IFRS(\uBCC4\uB3C4)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"IFRSL\">K-IFRS(\uC5F0\uACB0)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"GAAPS\">K-GAAP(\uAC1C\uBCC4)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"GAAPL\">K-GAAP(\uC5F0\uACB0)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"javascript:;\" title=\"\uAC80\uC0C9\" class=\"btn_search\"><span id=\"btnSearch\">\uAC80\uC0C9</span></a>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"javascript:;\" title=\"\uB3C4\uC6C0\uB9D0 \uC0C8\uCC3D\uC5F4\uAE30\"
+        onclick=\"Cmd_Help_IFRS();\" class=\"btn_etc\">IFRS<span class=\"icon-sprite
+        icon-question\"></span></a>\r\n\t\t\t\t\t\t\t\t\t\t\t<a id=\"hcalText\" href=\"javascript:;\"
+        title=\"\uB808\uC774\uC5B4\uB85C \uC7AC\uBB34\uACC4\uC815 \uB3C4\uC6C0\uB9D0\uCC3D
+        \uC5F4\uAE30\" class=\"btn_etc kor\">\uC0B0\uC2DD<span class=\"icon-sprite
+        icon-question\"></span></a>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"right\" style=\"vertical-align:bottom;padding-bottom: 5px;\">\r\n\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"unit_text\">* \uB2E8\uC704 : \uC5B5\uC6D0, %, \uBC30, \uC8FC <span style='cursor:
+        pointer;' class='unit_text' title=\"\uB2F9\uAE30 \uB204\uC801\uC5D0\uC11C
+        \uC9C1\uC804 \uBD84\uAE30 \uB204\uC801\uC744 \uCC28\uAC10\uD55C \uAE08\uC561\uC785\uB2C8\uB2E4.\">&nbsp;&nbsp;&nbsp;&nbsp;*
+        \uBD84\uAE30: \uC21C\uC561\uAE30\uC900</span></span>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t<div
+        id=\"calculateArea\">\r\n\t\t\t\t\t\t\t\t\t<div id=\"draggable-section\">\r\n\t\t\t\t\t\t\t\t\t\t<table
+        class=\"all-width\" summary=\"\uC7AC\uBB34\uC6A9\uC5B4\uC5D0 \uB300\uD55C
+        \uC124\uBA85(\uC7AC\uBB34\uACC4\uC815\uBA85,\uC0C1\uC138\uAE30\uC900)\uC744
+        \uC81C\uACF5\uD569\uB2C8\uB2E4.\">\r\n\t\t\t\t\t\t\t\t\t\t\t<caption class=\"blind\">\uC7AC\uBB34\uC0B0\uC2DD</caption>\r\n\t\t\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col
+        class=\"col1\" />\r\n\t\t\t\t\t\t\t\t\t\t\t\t<col class=\"col2\" />\r\n\t\t\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"col1\">\uD56D\uBAA9\uBA85</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"col2\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div id=\"column-left\">\uC0C1\uC138\uAE30\uC900</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">CAPEX</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">\uC720\uD615\uC790\uC0B0\uC758\uC99D\uAC00</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">FCF</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">\uC601\uC5C5\uD65C\uB3D9\uC73C\uB85C\uC778\uD55C\uD604\uAE08\uD750\uB984-CAPEX</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uC774\uC790\uBC1C\uC0DD\uBD80\uCC44</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">\uB2E8\uAE30\uC0AC\uCC44+\uB2E8\uAE30\uCC28\uC785\uAE08+\uC720\uB3D9\uC131\uC7A5\uAE30\uBD80\uCC44+\uB2E8\uAE30\uAE08\uC735\uBD80\uCC44+\uC0AC\uCC44+\uC7A5\uAE30\uCC28\uC785\uAE08+\uC7A5\uAE30\uAE08\uC735\uBD80\uCC44</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uC601\uC5C5\uC774\uC775\uB960</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">\uC601\uC5C5\uC774\uC775/\uB9E4\uCD9C\uC561(\uC218\uC775)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uC21C\uC774\uC775\uB960</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">\uB2F9\uAE30\uC21C\uC774\uC775/\uB9E4\uCD9C\uC561(\uC218\uC775)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">ROE</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">(\uC9C0\uBC30\uC8FC\uC8FC\uC9C0\uBD84)\uB2F9\uAE30\uC21C\uC774\uC775[\uB2F9\uAE30]/((\uC9C0\uBC30\uC8FC\uC8FC\uC9C0\uBD84)\uC790\uBCF8\uCD1D\uACC4[\uB2F9\uAE30]+(\uC9C0\uBC30\uC8FC\uC8FC\uC9C0\uBD84)\uC790\uBCF8\uCD1D\uACC4[\uC804\uAE30])/2)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">ROA</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">\uB2F9\uAE30\uC21C\uC774\uC775[\uB2F9\uAE30]/(\uC790\uC0B0\uCD1D\uACC4[\uB2F9\uAE30]+\uC790\uC0B0\uCD1D\uACC4[\uC804\uAE30]/2)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uBD80\uCC44\uBE44\uC728</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">\uBD80\uCC44\uCD1D\uACC4/\uC790\uBCF8\uCD1D\uACC4</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uC790\uBCF8\uC720\uBCF4\uC728</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">(\uC790\uBCF8\uC789\uC5EC\uAE08+\uC774\uC775\uC789\uC5EC\uAE08)/\uC790\uBCF8\uAE08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">EPS</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">(\uC9C0\uBC30\uC8FC\uC8FC\uC9C0\uBD84)\uB2F9\uAE30\uC21C\uC774\uC775*1000/\uC218\uC815\uD3C9\uADE0\uBC1C\uD589\uC8FC\uC2DD\uC218(\uBCF4\uD1B5\uC8FC+\uC6B0\uC120\uC8FC)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">PER</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">\uBCF4\uD1B5\uC8FC\uC218\uC815\uC8FC\uAC00(\uAE30\uB9D0)/EPS</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">BPS</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">(\uC9C0\uBC30\uC8FC\uC8FC\uC9C0\uBD84)\uC790\uBCF8\uCD1D\uACC4/\uC218\uC815\uAE30\uB9D0\uBC1C\uD589\uC8FC\uC2DD\uC218(\uBCF4\uD1B5\uC8FC+\uC6B0\uC120\uC8FC,
+        \uC790\uC0AC\uC8FC\uCC28\uAC10)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">PBR</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"col2\">\uBCF4\uD1B5\uC8FC\uC218\uC815\uC8FC\uAC00(\uAE30\uB9D0)/BPS</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uC218\uC815DPS</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">DPS\uC5D0 \uC790\uBCF8\uAE08\uBCC0\uB3D9\uC774\uBCA4\uD2B8
+        \uC2DC \uC218\uC815\uACC4\uC218\uAC00 \uBC1C\uC0DD\uD558\uB294 \uACBD\uC6B0
+        \uC218\uC815\uACC4\uC218\uB97C \uC801\uC6A9</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uD604\uAE08\uBC30\uB2F9\uC218\uC775\uB960</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">\uC218\uC815DPS/\uBCF4\uD1B5\uC8FC\uC218\uC815\uC8FC\uAC00(\uAE30\uB9D0)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uD604\uAE08\uBC30\uB2F9\uC131\uD5A5</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">\uD604\uAE08\uBC30\uB2F9\uC561(\uC804\uCCB4)/(\uC9C0\uBC30\uC8FC\uC8FC\uC9C0\uBD84)\uB2F9\uAE30\uC21C\uC774\uC775</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"row\" class=\"col1\">\uBC1C\uD589\uC8FC\uC2DD\uC218</th>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"col2\">\uBCF4\uD1B5\uC8FC \uAE30\uB9D0\uBC1C\uD589\uC8FC\uC2DD\uC218
+        (\uC790\uBCF8\uAE08 \uBCC0\uB3D9 \uC774\uBCA4\uD2B8 \uC911 \uC218\uC815\uACC4\uC218\uAC00
+        \uBC1C\uC0DD\uD558\uB294 \uACBD\uC6B0 \uACFC\uAC70 \uB370\uC774\uD130\uAC00
+        \uC18C\uAE09\uB428)</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"btn-close\"><a id=\"hbtn-close\" href=\"javascript:;\" title=\"\uC0B0\uC2DD\uB2EB\uAE30\"><span
+        class=\"icon-sprite icon-layer-x\">\uC0B0\uC2DD\uB2EB\uAE30</span></a></div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<table
+        class=\"schtab\" id=\"cTB00\">\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c0 tabstart\"></td>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"c1 center on\"
+        id=\"cns_td20\">\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"javascript:;\" id=\"cns_Tab20\"
+        title=\"\uBD84\uAE30\">\uC804\uCCB4</a>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c2 center off\" id=\"cns_td21\">\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"javascript:;\"
+        id=\"cns_Tab21\" title=\"\uC5F0\uAC04\">\uC5F0\uAC04</a>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c3 center off\" id=\"cns_td22\">\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"javascript:;\"
+        id=\"cns_Tab22\" title=\"\uBD84\uAE30\">\uBD84\uAE30</a>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c4 tabspace\"></td>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"c5 tabend\"></td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t\r\n
+        \                               <div id=\"bG05RlB6cn\"></div>\r\n\r\n\t\t\t\t\t\t\t\t<div
+        class=\"gibun_exp7_1 all clr\">\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<dl
+        class=\"annotation mb-16\">\r\n\t\t\t\t\t\t\t\t\t<dd class=\"section01 cursor\">\r\n\t\t\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t\t\t\r\n
+        \                                           <li>* \uC2E4\uC801 \uC5C5\uB370\uC774\uD2B8\uB294
+        \uC81C\uC870\uC5C5 > \uAE08\uC735\uC5C5 \uC21C\uC73C\uB85C \uC21C\uCC28\uC801\uC73C\uB85C
+        \uC5C5\uB370\uC774\uD2B8\uB429\uB2C8\uB2E4.</li>\r\n                                            <li>*
+        \uC7AC\uBB34 \uC815\uBCF4\uB294 \uC804\uC790\uACF5\uC2DC\uC2DC\uC2A4\uD15C\uC5D0
+        \uBC1C\uD45C\uB41C \uD6C4 \uB2F9\uC0AC \uC11C\uBE44\uC2A4\uC5D0 \uBC18\uC601\uB418\uAE30\uAE4C\uC9C0
+        \uCD5C\uC18C 2\uC601\uC5C5\uC77C\uC5D0\uC11C \uCD5C\uB300 10\uC601\uC5C5\uC77C\uAE4C\uC9C0
+        \uC18C\uC694\uB420 \uC218 \uC788\uC2B5\uB2C8\uB2E4.</li>\r\n\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t<dd
+        class=\"section02\">\r\n\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uBD84\uAE30 ROE/ROA/PER/PBR\uC740 \uC9C1\uC804 4\uAC1C \uBD84\uAE30 \uB370\uC774\uD130\uB85C
+        \uC5F0\uD658\uC0B0 \uD558\uC5EC \uC0B0\uCD9C</li>\r\n\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uC601\uC5C5\uC774\uC775 = \uB9E4\uCD9C\uC561 - \uB9E4\uCD9C\uC6D0\uAC00 -
+        \uD310\uB9E4\uBE44\uC640\uAD00\uB9AC\uBE44</li>\r\n\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t<dd
+        class=\"section03\"><a href=\"javascript:;\" class=\"off\"></a></dd>\r\n\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t<!--
+        Financial Summary -->\r\n\t\t\t\t\t\t\t\t<div class=\"tit-empty\"></div>\r\n\t\t\t\t\t\t\t\t<!--\uD22C\uC790\uC758\uACAC
+        \uCEE8\uC13C\uC11C\uC2A4-->\r\n\t\t\t\t\t\t\t\t<div class=\"all-width\">\r\n\t\t\t\t\t\t\t\t\t<div
+        class=\"header-table\">\r\n\t\t\t\t\t\t\t\t\t\t<dl class=\"header-table-row\">\r\n\t\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"header-table-cell\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<h5><span>\uD22C\uC790\uC758\uACAC</span>
+        \uCEE8\uC13C\uC11C\uC2A4</h5>\r\n\t\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t\t<dd
+        class=\"header-table-cell unit\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<p>[\uAE30\uC900:2026.04.14]</p>\r\n\t\t\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t<table
+        class=\"gHead all-width\" id=\"cTB15\" summary=\"\uD22C\uC790\uC758\uACAC\uC5D0
+        \uB300\uD55C \uCEE8\uC13C\uC11C\uC2A4\uC758 \uC704\uCE58\uB97C \uADF8\uB9BC\uC73C\uB85C
+        \uBCF4\uC5EC\uC8FC\uACE0, \uD22C\uC790\uC758\uACAC\uAC12,\uBAA9\uD45C\uC8FC\uAC00,EPS,PER,PBR,\uCD94\uC815\uAE30\uAD00\uC815\uBCF4\uB97C
+        \uC81C\uACF5\uD569\uB2C8\uB2E4.\">\r\n\t\t\t\t\t\t\t\t\t\t<caption class=\"blind\">\uD22C\uC790\uC758\uACAC\uCEE8\uC13C\uC11C\uC2A4</caption>\r\n\t\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t\t<col
+        class=\"c1\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col class=\"c2\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col
+        class=\"c3\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col class=\"c4\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col
+        class=\"c5\" />\r\n\t\t\t\t\t\t\t\t\t\t\t<col class=\"c6\" />\r\n\t\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line-right noline-bottom center\" rowspan=\"2\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"pointerBG\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span id=\"pointer\" style=\"LEFT:
+        72%\"></span><span id=\"pointerVal\" class=\"cUp num\" style=\"LEFT: 72%\">4.00</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<br
+        />\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<img height=\"25\" src=\"/images/graph_bar.gif\"
+        alt=\"\uD22C\uC790\uC758\uACAC \uCEE8\uC13C\uC11C\uC2A4 \uADF8\uB798\uD504(\uAC15\uB825\uB9E4\uB3C41|\uB9E4\uB3C42|\uC911\uB9BD3|\uB9E4\uC2184|\uAC15\uB825\uB9E4\uC2185),
+        \uAC12:4.00\" usemap=\"#imgmap\" />\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<map id=\"imgmap\"
+        name=\"imgmap\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<area shape=\"rect\" coords=\"0,0,60,17\"
+        alt=\"\uAC15\uB825\uB9E4\uB3C4\" title=\"\uAC15\uB825\uB9E4\uB3C4\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<area
+        shape=\"rect\" coords=\"60,0,120,17\" alt=\"\uB9E4\uB3C4\" title=\"\uB9E4\uB3C4\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<area
+        shape=\"rect\" coords=\"120,0,180,17\" alt=\"\uC911\uB9BD\" title=\"\uC911\uB9BD\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<area
+        shape=\"rect\" coords=\"180,0,240,17\" alt=\"\uB9E4\uC218\" title=\"\uB9E4\uC218\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<area
+        shape=\"rect\" coords=\"240,0,300,17\" alt=\"\uAC15\uB825\uB9E4\uC218\" title=\"\uAC15\uB825\uB9E4\uC218\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</map>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uD22C\uC790\uC758\uACAC</th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uBAA9\uD45C\uC8FC\uAC00<span class=\"span-sub\">(\uC6D0)</span></th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">EPS<span class=\"span-sub\">(\uC6D0)</span></th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">PER<span class=\"span-sub\">(\uBC30)</span></th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        class=\"noline-right\" scope=\"col\">\uCD94\uC815\uAE30\uAD00\uC218</th>\r\n\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-bottom line-right center cUp\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<b>4.00</b>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-bottom line-right center\">288,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-bottom line-right center\">36,119</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-bottom line-right center\">5.72</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-bottom center\">25</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"tit-empty\"></div>\r\n\t\t\t\t\t\t\t\t<div class='fl_le half'>\r\n\t\t\t\t\t\t\t\t\t<div
+        class='gHead' id='gHeadCt2'>\r\n\t\t\t\t\t\t\t\t\t\t<h6 class=\"spanCT\">\uD22C\uC790\uC758\uACAC
+        \uBC0F \uBAA9\uD45C\uC8FC\uAC00</h6>\r\n\t\t\t\t\t\t\t\t\t\t<a href=\"#sct3\"
+        class=\"blind\"><strong>\uCC28\uD2B8 \uAC74\uB108\uB6F0\uAE30</strong>\"\uB370\uC774\uD130\uB97C
+        \uCC28\uD2B8\uB85C \uC81C\uACF5\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uCC28\uD2B8\uB97C
+        \uAC74\uB108\uB6F0\uACE0 \uC2F6\uC740 \uACBD\uC6B0 \uC774 \uB9C1\uD06C\uB97C
+        \uC120\uD0DD\uD558\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4.\"</a>\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id='opinion_targetPrice' class='chart-container'>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class='fl_ri half'>\r\n\t\t\t\t\t\t\t\t\t<div class='gHead' id='gHeadCt3'>\r\n\t\t\t\t\t\t\t\t\t\t<h6
+        class=\"spanCT\">\uD22C\uC790\uC758\uACAC \uBD84\uD3EC</h6>\r\n\t\t\t\t\t\t\t\t\t\t<a
+        href=\"#cTB24\" class=\"blind\"><strong>\uCC28\uD2B8 \uAC74\uB108\uB6F0\uAE30</strong>\"\uB370\uC774\uD130\uB97C
+        \uCC28\uD2B8\uB85C \uC81C\uACF5\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uCC28\uD2B8\uB97C
+        \uAC74\uB108\uB6F0\uACE0 \uC2F6\uC740 \uACBD\uC6B0 \uC774 \uB9C1\uD06C\uB97C
+        \uC120\uD0DD\uD558\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4.\"</a>\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id='opinion' class='chart-container'>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div
+        class=\"clr\"></div>\r\n\t\t\t\t\t\t\t\t<table class=\"gHead01 all-width\"
+        id=\"cTB24\" summary=\"\uC81C\uACF5\uCC98\uBCC4\uB85C \uCD5C\uADFC\uC77C\uC790\uC21C\uC73C\uB85C
+        \uBAA9\uD45C\uAC00, \uC9C1\uC804\uBAA9\uD45C\uAC00, \uBCC0\uB3D9\uB960, \uD22C\uC790\uC758\uACAC,
+        \uC9C1\uC804\uD22C\uC790\uC758\uACAC\uC744 \uC81C\uACF5\uD569\uB2C8\uB2E4.\"
+        tabindex=\"0\">\r\n\t\t\t\t\t\t\t\t\t<caption class=\"blind\">\uC81C\uACF5\uCC98\uBCC4
+        \uD22C\uC790\uC758\uACAC \uBC0F \uBAA9\uD45C\uC8FC\uAC00, \uBCC0\uB3D9\uB960
+        \uBAA9\uB85D</caption>\r\n\t\t\t\t\t\t\t\t\t<colgroup>\r\n\t\t\t\t\t\t\t\t\t\t<col
+        width=\"120\" />\r\n\t\t\t\t\t\t\t\t\t\t<col width=\"90\" />\r\n\t\t\t\t\t\t\t\t\t\t<col
+        width=\"*\" span=\"2\" />\r\n\t\t\t\t\t\t\t\t\t\t<col width=\"82\" />\r\n\t\t\t\t\t\t\t\t\t\t<col
+        width=\"115\" span=\"2\" />\r\n\t\t\t\t\t\t\t\t\t</colgroup>\r\n\t\t\t\t\t\t\t\t\t<thead>\r\n\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uC81C\uACF5\uCC98</th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uCD5C\uC885\uC77C\uC790</th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uBAA9\uD45C\uAC00</th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uC9C1\uC804\uBAA9\uD45C\uAC00</th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uBCC0\uB3D9\uB960<span class=\"span-sub\">(%)</span></th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"line\">\uD22C\uC790\uC758\uACAC</th>\r\n\t\t\t\t\t\t\t\t\t\t\t<th
+        scope=\"col\" class=\"endLine\">\uC9C1\uC804\uD22C\uC790\uC758\uACAC</th>\r\n\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t</thead>\r\n\t\t\t\t\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uBBF8\uB798\uC5D0\uC14B</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/13</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uC720\uC548\uD0C0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/09</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">330,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">280,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">17.86</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">KB</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">360,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">360,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uD55C\uD654\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">260,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">15.38</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">iM</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">280,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">7.14</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">NH\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">290,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">260,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">11.54</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uD0A4\uC6C0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">260,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">260,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uD55C\uAD6D\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">330,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">330,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uD765\uAD6D</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">260,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">260,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uD558\uB098</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">DB</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">250,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">230,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">8.70</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">SK</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">400,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">33.33</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uD604\uB300\uCC28</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">270,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">258,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">4.65</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">IBK\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">350,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">240,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">45.83</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uB2E4\uC62C\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/08</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">350,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">290,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">20.69</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uC0C1\uC0C1\uC778</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/07</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">250,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">190,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">31.58</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uC0BC\uC131</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/07</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">270,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">230,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">17.39</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uB300\uC2E0</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/07</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">270,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">270,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">DS\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/07</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">300,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">270,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">11.11</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uC2E0\uD55C\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/06</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">270,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">230,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">17.39</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uBA54\uB9AC\uCE20</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/03</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">250,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">210,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">19.05</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">BNK\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/04/02</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">250,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">250,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"\uB9E4\uC218\">\uB9E4\uC218</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">LS</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/02/24</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">260,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">140,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">85.71</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uAD50\uBCF4</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/02/11</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">220,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">220,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">0.00</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"Buy\">Buy</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        style=\"background-color: #FFFFFF\" class=\"line txt\" scope=\"row\">\uC720\uC9C4\uD22C\uC790</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\">26/01/30</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line
+        num\">210,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"line num\">180,000</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line num\"><span class=\"cBk\">16.67</span></td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"line center\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td
+        class=\"noline-right center\" style=\"position: relative;\" title=\"BUY\">BUY</td>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t</tbody>\r\n\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t<p
+        class=\"disc table mb-16\">* \uCEE8\uC13C\uC11C\uC2A4 : \uCD5C\uADFC 3\uAC1C\uC6D4\uAC04
+        \uC99D\uAD8C\uC0AC\uC5D0\uC11C \uBC1C\uD45C\uD55C \uCD94\uC815\uCE58\uC758
+        \uD3C9\uADE0 </p>\r\n\t\t\t\t\t\t\t\t<div class=\"print_hspace\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<!--\uD22C\uC790\uC758\uACAC
+        \uCEE8\uC13C\uC11C\uC2A4-->\r\n\r\n\t\t\t\t\t\t\t\t<div class=\"tit-empty\"></div>\r\n\t\t\t\t\t\t\t\t<!--\uCD94\uC815\uC2E4\uC801
+        \uCEE8\uC13C\uC11C\uC2A4-->\r\n\t\t\t\t\t\t\t\t<table class=\"schbox\">\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c1 left\">\r\n\t\t\t\t\t\t\t\t\t\t\t<h5><span>\uCD94\uC815\uC2E4\uC801</span>
+        \uCEE8\uC13C\uC11C\uC2A4</h5>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c2 right\" style=\"vertical-align:top\">\r\n\t\t\t\t\t\t\t\t\t\t\t<select
+        name=\"conGubun\" id=\"conGubun\" title=\"\uC7AC\uBB34\uAD6C\uBD84\uC120\uD0DD\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"MAIN\">\uC8FC\uC7AC\uBB34\uC81C\uD45C</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"IFRSS\">K-IFRS(\uBCC4\uB3C4)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"IFRSL\">K-IFRS(\uC5F0\uACB0)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"GAAPS\">K-GAAP(\uAC1C\uBCC4)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<option
+        value=\"GAAPL\">K-GAAP(\uC5F0\uACB0)</option>\r\n\t\t\t\t\t\t\t\t\t\t\t</select>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"javascript:;\" onclick=\"GetConDataReload(event,'005930','conGubun','0',document.getElementById('conGubun').value);\"
+        title=\"\uAC80\uC0C9\" id=\"btnsubmit\" class=\"btn_search\"><span>\uAC80\uC0C9</span></a>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t<table
+        class=\"schtab\" id=\"cTB23\">\r\n\t\t\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c0 tabstart\"></td>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"c1 center on\"
+        id=\"cns_td1\">\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"javascript:;\" id=\"cns_Tab1\"
+        title=\"\uC5F0\uAC04\">\uC5F0\uAC04</a>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c2 center off\" id=\"cns_td2\">\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"javascript:;\"
+        id=\"cns_Tab2\" title=\"\uBD84\uAE30\">\uBD84\uAE30</a>\r\n\t\t\t\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t\t\t\t<td
+        class=\"c3 tabspace\">&nbsp;</td>\r\n\t\t\t\t\t\t\t\t\t\t<td class=\"c4 tabend\"></td>\r\n\t\t\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t\t</table>\r\n\t\t\t\t\t\t\t\t<div
+        id=\"frmFS1\" class=\"all\"></div>\r\n\t\t\t\t\t\t\t\t<dl class=\"annotation
+        mb-16\">\r\n\t\t\t\t\t\t\t\t\t<dd class=\"section01 cursor\">\r\n\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t<li>*
+        (A) \uB294 \uC2E4\uC801, (E)\uB294 \uCEE8\uC13C\uC11C\uC2A4</li>\r\n\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t<dd
+        class=\"section02\">\r\n\t\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uC5F0\uACB0 \uAE30\uC5C5\uC758 \uB2F9\uAE30\uC21C\uC774\uC775 \uBC0F \uC790\uBCF8\uCD1D\uACC4\uB294
+        \uC9C0\uBC30\uC8FC\uC8FC \uAE30\uC900 </li>\r\n\t\t\t\t\t\t\t\t\t\t\t<li>*
+        \uCEE8\uC13C\uC11C\uC2A4 : \uCD5C\uADFC 3\uAC1C\uC6D4\uAC04 \uC99D\uAD8C\uC0AC\uC5D0\uC11C
+        \uBC1C\uD45C\uD55C \uCD94\uC815\uCE58\uC758 \uD3C9\uADE0 </li>\r\n\t\t\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t\t</dd>\r\n\t\t\t\t\t\t\t\t\t<dd
+        class=\"section03\"><a href=\"javascript:;\" class=\"off\"></a></dd>\r\n\t\t\t\t\t\t\t\t</dl>\r\n\t\t\t\t\t\t\t\t<!--\uCD94\uC815\uC2E4\uC801\uCEE8\uC13C\uC11C\uC2A4-->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<!--
+        wrapper -->\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--//
+        contentWrap -->\r\n\t\t\t</div>\r\n\t\t\t<!--//all_contentWrap -->\r\n\t\t</div>\r\n\t\t\r\n\t<div
+        class=\"clr\">&nbsp;</div> <!-- \uC5EC\uBC31 -->\r\n    <div class=\"foot-wrap\">\r\n
+        \       <div></div>\r\n        <div id=\"foot-section\">\r\n            <div>\r\n
+        \               <span></span>\r\n            </div>\r\n            <div>\r\n
+        \               <p>\r\n                    FnGuide\uC5D0\uC11C \uC81C\uACF5\uD558\uB294
+        \uC815\uBCF4\uB294 \uC2E0\uB8B0\uD560 \uB9CC\uD55C \uC790\uB8CC \uBC0F \uC815\uBCF4\uB85C\uBD80\uD130
+        \uC5BB\uC5B4\uC9C4 \uAC83\uC774\uB098 \uADF8 \uC815\uD655\uC131\uC774\uB098
+        \uC644\uC804\uC131\uC744 \uBCF4\uC7A5 \uD560 \uC218 \uC5C6\uC73C\uBA70, \uC2DC\uAC04\uC774
+        \uACBD\uACFC\uD568\uC5D0 \uB530\uB77C \uBCC0\uACBD\uB420 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\r\n
+        \                   \uB530\uB77C\uC11C \uC815\uBCF4\uC758 \uC624\uB958, \uB204\uB77D\uC5D0
+        \uB300\uD558\uC5EC FnGuide \uB610\uB294FnGuide\uC5D0 \uC790\uB8CC\uB97C \uC81C\uACF5\uD558\uB294
+        \uD68C\uC0AC\uC5D0\uC11C\uB294 \uADF8 \uACB0\uACFC\uC5D0 \uB300\uD574 \uBC95\uC801\uC778
+        \uCC45\uC784\uC744 \uC9C0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\r\n                    \uBAA8\uB4E0
+        \uCF58\uD150\uCE20\uC5D0 \uB300\uD55C \uC800\uC791\uAD8C\uC740 FnGuide\uC5D0
+        \uC788\uC73C\uBA70 \uC0AC\uC804 \uD5C8\uAC00\uC5C6\uC774 \uC774\uB97C \uBB34\uB2E8\uC73C\uB85C
+        \uC0AC\uC6A9\uD558\uAC70\uB098, \uB370\uC774\uD130 \uBCA0\uC774\uC2A4\uD654
+        \uD560 \uACBD\uC6B0 \uBBFC\uD615\uC0AC\uC0C1 \uCC45\uC784\uC744 \uBB3C\uC744
+        \uC218 \uC788\uC2B5\uB2C8\uB2E4.\r\n                </p>\r\n            </div>\r\n
+        \       </div>\r\n        <div></div>\r\n    </div>\r\n\t<div class=\"clr\">&nbsp;</div>
+        <!-- \uC5EC\uBC31 -->\r\n\r\n\t\t\r\n\t</form>\r\n\t<script type='text/javascript'>\r\n\t\t_.templateSettings
+        = {\r\n\t\t\tinterpolate: /\\<\\@\\=(.+?)\\@\\>/gim,\r\n\t\t\tevaluate: /\\<\\@(.+?)\\@\\>/gim\r\n\t\t};\r\n\t\tvar
+        cn = '';\r\n\t\t// \uC8FC\uAC00 \uBC0F \uC0C1\uB300\uC218\uC775\uB960 \uCD94\uC774
+        \uCC28\uD2B8\r\n\t\tvar chartType = 'svg';\r\n\t\t// \uB124\uC774\uBC84 \uC885\uD569
+        -> \uAE30\uC5C5\uC2E4\uC801\uBD84\uC11D \uB354\uBCF4\uAE30\r\n\t\t$(window).load(function
+        () {\r\n\t\t\t\r\n\t\t\tvar targetvalue = '';\r\n\t\t\tvar moretop = (targetvalue
+        === 'finsum_more') ? ($('#finsum_more').offset() || {top: 0}).top : ({top:
+        0}).top;\r\n\t\t\tsetTimeout(function () { autoResize({ moretop: moretop });
+        }, 1000);\r\n\t\t});\r\n\r\n\t\t// \uC8FC\uAC00 \uBC0F \uC0C1\uB300\uC218\uC775\uB960
+        \uCD94\uC774 \uCC28\uD2B8\r\n\t\t$(document).ready(function () {\r\n\t\t\tCompany_addr();\r\n\t\t\tcompany_autocomplete();\r\n\r\n\t\t\t$(\"#hd_cmp_cd\").val('');\r\n\t\t\t$(\"#cmp_cd\").val('');\r\n\r\n\t\t\t$('#conGubun,
+        #bandChartGubun, #finGubun').change(function(){\r\n\t\t\t\tsetValCookie();\r\n\t\t\t});\r\n\t\t\r\n\t\t\t$('#btnSearch').click(function(){\r\n\t\t\t\tgetAddInfoData01();\r\n\t\t\t\treturn
+        false;\r\n\t\t\t});\r\n\t\t\t$('#cTB00 .center').click(function(){\r\n\t\t\t\t$(this).removeClass('off').addClass('on');\r\n\t\t\t\t$(this).siblings('.center').removeClass('on').addClass('off');\r\n\t\t\t\tgetAddInfoData01();\r\n\t\t\t\tsetValCookie();\r\n\t\t\t\treturn
+        false;\r\n\t\t\t});\r\n\r\n\t\t\t$(\"#hpopupsearch\").click(function () {\r\n\t\t\t\tCmd_cmpLookup(1,
+        $(\"#search\").val());\r\n\t\t\t});\r\n\t\t\t$(\"#hbandChartGubun\").click(function
+        () {\r\n\t\t\t\t$.cookie('finGubun', $(\"#bandChartGubun\").val());\r\n\t\t\t\tRequestBandChart();\r\n\t\t\t});\r\n\r\n\t\t\t$(\"#draggable-section\").draggable({\r\n\t\t\t\thandle:
+        \"thead\"\r\n\t\t\t});\r\n\t\t\t$(\"#hcalText\").click(function () {\r\n\t\t\t\t$(\"#draggable-section\").css(\"display\",
+        \"block\");\r\n\t\t\t});\r\n\t\t\t$(\"#hbtn-close\").click(function () {\r\n\t\t\t\t$(\"#draggable-section\").css(\"display\",
+        \"none\");\r\n\t\t\t});\r\n\r\n\t\t\t$('#cTB23 td>a').click(function (e) {\r\n\t\t\t\tCmd_MajConsen_Cross(e);\r\n\t\t\t\tsetValCookie();\r\n\t\t\t});\r\n\r\n\t\t\t//
+        \uC8FC\uC694\uC8FC\uC8FC 9\uC778 \uD3BC\uCE58\uAE30\r\n\t\t\t$('.btn_moreE.sJJ').click(function(){\r\n\t\t\t\tvar
+        grp = $(this).data('grp');\r\n\t\t\t\tvar nm = $(this).data('nm');\r\n\t\t\t\tvar
+        obj = $(this)\r\n\t\t\t\tif($('span', this).hasClass('on'))\r\n\t\t\t\t{\r\n\t\t\t\t\t$('.c_sJJ'
+        + grp).remove();\r\n\t\t\t\t\t$('span', obj).removeClass('on');\r\n\t\t\t\t}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\t\t$.getJSON('/company/ajax/cF1001.aspx'\r\n\t\t\t\t\t,
+        {\r\n\t\t\t\t\t\tflag: 4,\r\n\t\t\t\t\t\tcmp_cd: '005930',\r\n\t\t\t\t\t\tgrp_cd:
+        grp==10?\"01\":\"03\",\r\n                        encparam: 'cE5PREZ4Q3ViYlNWNEVqRkZINVZxZz09'\r\n\t\t\t\t\t}\r\n\t\t\t\t,
+        function (res) {\r\n\t\t\t\t\tvar data = []\r\n\t\t\t\t\t_.each(res.dt, function(v,
+        i){\r\n\t\t\t\t\t\tif(v.MAJOR_NEBUNA == nm)\r\n\t\t\t\t\t\t\tdata.push(v)\r\n\t\t\t\t\t})\r\n\t\t\t\t\tvar
+        tmp = _.template($(\"#tmpl-sJJ\" ).html());\r\n\t\t\t\t\tobj.parents('.p_sJJ'
+        + grp).after(tmp({data: data, grp_cd: grp}));\r\n\r\n\t\t\t\t\t$('span', obj).addClass('on');\r\n\r\n\t\t\t\t\tgtag('config',
+        'UA-74989022-7', {'page_path': '/company/ajax/cF1001.aspx'});\r\n\t\t\t\t});\r\n\t\t\t\t}\r\n\t\t\t\t\r\n\t\t\t});\r\n\r\n\t\t\t//
+        \uC8FC\uAC00 \uAC70\uB798\uB7C9 \uCC28\uD2B8 \uAC00\uC838\uC624\uAE30\r\n\t\t\tstockChart(2);\r\n\r\n\t\t\t//
+        \uC8FC\uAC00 \uAC70\uB798\uB7C9 \uCC28\uD2B8 \uC120\uD0DD\r\n\t\t\t$('.btn_chart').click(function(){\r\n\t\t\t\t$(this).parent().find('.on').removeClass('on');\r\n\t\t\t\t$(this).addClass('on');\r\n\t\t\t\t$('#ct1').data('flag',
+        \"ct1_\" + $(this).data('flag'));\r\n\t\t\t\t$(\".spanCT\").eq(0).html($(this).html());\r\n\t\t\t\t$('#frmCt1').height(0)\r\n\r\n\t\t\t\tstockChart($(this).data('flag'))\r\n\t\t\t})\r\n\r\n\r\n\t\t\t//
+        \uCEE8\uC13C\uC11C\uC2A4 \uD14C\uC774\uBE14 \uD3BC\uCE58\uAE30\r\n\t\t\tif($(\"#cTB24
+        tbody tr\").length > 3)\r\n\t\t\t{\r\n\t\t\t\t$(\"#cTB24 tbody tr\").hide();\t\t\t\t\r\n\t\t\t\t$(\"#cTB24
+        tbody tr\").eq(2).find(\"td\").eq(6).append('<a class=\"btn_more\"><span class=\"icon-sprite
+        icon-more\">\uD3BC\uCE58\uAE30</span></a>');\r\n\t\t\t\t$(\"#cTB24 tbody tr\").eq(0).show();\r\n\t\t\t\t$(\"#cTB24
+        tbody tr\").eq(1).show();\r\n\t\t\t\t$(\"#cTB24 tbody tr\").eq(2).hide().show();\r\n\r\n\t\t\t\t$(\".btn_more\").click(function
+        () {\r\n\t\t\t\t\tif($(this).hasClass('ext')) {\r\n\t\t\t\t\t\t$(\"#cTB24
+        tbody tr\").hide();\r\n\t\t\t\t\t\t$(\"#cTB24 tbody tr\").eq(0).show();\r\n\t\t\t\t\t\t$(\"#cTB24
+        tbody tr\").eq(1).show();\r\n\t\t\t\t\t\t$(\"#cTB24 tbody tr\").eq(2).hide().show();\r\n\t\t\t\t\t\t$(this).removeClass('ext');\r\n\t\t\t\t\t\t$(this).children().removeClass('on');\r\n\t\t\t\t\t}\r\n\t\t\t\t\telse
+        {\r\n\t\t\t\t\t\t$(\"#cTB24 tbody tr\").show();\r\n\t\t\t\t\t\t$(this).addClass('ext');\r\n\t\t\t\t\t\t$(this).children().addClass('on');\r\n\t\t\t\t\t}\r\n\t\t\t\t});\r\n\t\t\t}\r\n\r\n\t\t\t//\uD380\uB354\uBA58\uD138
+        > \uC5B4\uB2DD\uC11C\uD504\uB77C\uC774\uC988\r\n\t\t\tEarnigList();\r\n    \t\t\r\n\t\t\t//initFinGubun\uACFC
+        \uAC19\uC740 \uB77C\uC778\uC5D0 \uC788\uC5B4\uC57C \uD558\uC9C0\uB9CC \uC774\uBCA4\uD2B8
+        \uB4F1\uB85D\uC774 \uB41C \uC774\uD6C4\uC758 \uC2DC\uC810\uC5D0\uC11C \uCFE0\uD0A4\uAC12\uC744
+        \uAC00\uC838\uC640 \uB370\uC774\uD130\uB97C \uBC18\uC601\uD55C\uB2E4.\r\n\t\t\tgetValCookie();\r\n\r\n\t\t\t$(\"#btnsubmit\").click(function
+        () {\r\n\t\t\t\t$('#cns_td2').removeClass('on').addClass('off');\r\n\t\t\t\t$('#cns_td1').removeClass('off').addClass('on');\r\n\t\t\t});\r\n\r\n\t\t\t$(\".viewCT\").click(function
+        (e) {\r\n\t\t\t\tvar eid = e.target.id;\r\n\t\t\t\tif (eid == \"\" || eid
+        == null)\r\n\t\t\t\t\teid = $(e.target).children().attr(\"id\");\r\n\t\t\t\tswitch
+        (eid) {\r\n\t\t\t\t\tcase \"ct1\":\r\n\t\t\t\t\t\tCmd_cmpPopChartTable($('.nm_k').text(),
+        \"frmCt1\", $(\"#ct1\").data('flag'), \"005930;20260414\");\r\n\t\t\t\t\tbreak;\r\n\t\t\t\tcase
+        \"ct2\":\r\n\t\t\t\t\tCmd_cmpPopChartTable($('.nm_k').text(), \"frmCt2\",
+        \"ct2\", \"005930\");\r\n\t\t\t\t\tbreak;\r\n\t\t\t\tcase \"ct3\":\r\n\t\t\t\t\tCmd_cmpPopChartTable($('.nm_k').text(),
+        \"frmCt3\", \"ct3\", \"005930;20260414\");\r\n\t\t\t\t\tbreak;\r\n\t\t\t\tcase
+        \"ct4\":\r\n\t\t\t\t\tCmd_cmpPopChartTable($('.nm_k').text(), \"frmCt4\",
+        \"ct4\", \"005930;\" + $(\"#bandChartGubun\").val());\r\n\t\t\t\t\tbreak;\r\n\t\t\t\tcase
+        \"ct5\":\r\n\t\t\t\t\tCmd_cmpPopChartTable($('.nm_k').text(), \"frmCt5\",
+        \"ct5\", \"005930;\" + $(\"#bandChartGubun\").val());\r\n\t\t\t\t\tbreak;\r\n\t\t\t}\r\n\r\n\t\t});\r\n\r\n\t\t\t//
+        \uBC34\uB4DC\uCC28\uD2B8\r\n\t\t\tRequestBandChart(); \r\n\r\n\t\t});\r\n\r\n\t//
+        \uC8FC\uAC00 \uAC70\uB798\uB7C9 \uCC28\uD2B8\r\n\tfunction stockChart(flag)
+        {\r\n\t\t// flag 1: \uC8FC\uAC00\uAC70\uB798\uB300\uAE08, 2: \uC218\uC815\uC8FC\uAC00\uC0C1\uB300\uC218\uC775\uB960,
+        3:\uC678\uAD6D\uC778\uC9C0\uBD84\uC728\uAE30\uAD001\uAC1C\uC6D4\uB204\uC801\uC21C\uB9E4\uC218\r\n\t\tif
+        (chartType != 'image')\r\n\t\t{\r\n\t\t\t$.getJSON('/company/ajax/cF1001.aspx'\r\n\t\t\t,
+        {\r\n\t\t\t\tflag: flag,\r\n\t\t\t\tcmp_cd: '005930',\r\n                encparam:
+        'cE5PREZ4Q3ViYlNWNEVqRkZINVZxZz09'\r\n\t\t\t}\r\n\t\t\t\t, function (res)
+        {\r\n\t\t\t\t\tgtag('config', 'UA-74989022-7', {'page_path': '/company/ajax/cF1001.aspx'});\r\n\t\t\t\tvar
+        tit_left, tit_right, d_left, d_right;\r\n\t\t\t\t//var qty = [];\r\n\t\t\t\t//_.each(res.TRD_QTY,
+        function(v, i){\r\n\t\t\t\t//\tqty.push({y: v, color: res.TRD_QTY_TYP[i]==\"R\"?\"#CC3300\":\"#216BDE\"})\r\n\t\t\t\t//})\r\n\t\t\t\tswitch(flag)\r\n\t\t\t\t{\r\n\t\t\t\t\tcase
+        1:\r\n\t\t\t\t\t\tif(_.max(res.D1).toString().length > 5) {\r\n\t\t\t\t\t\t\ttit_right
+        = \"\uCC9C\uC6D0\";\r\n\t\t\t\t\t\t\td_right = 1000;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse
+        {\r\n\t\t\t\t\t\t\ttit_right = \"\uC6D0\";\r\n\t\t\t\t\t\t\td_right = 1;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\tvar
+        d2_len = _.max(res.D2).toString().length; \r\n\t\t\t\t\t\tif(d2_len > 10)
+        {\r\n\t\t\t\t\t\t\ttit_left = \"\uC5B5\uC6D0\";\r\n\t\t\t\t\t\t\td_left =
+        100000000;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse if(d2_len > 6) {\r\n\t\t\t\t\t\t\ttit_left
+        = \"\uB9CC\uC6D0\";\r\n\t\t\t\t\t\t\td_left = 10000;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse
+        {\r\n\t\t\t\t\t\t\ttit_left = \"\uC6D0\";\r\n\t\t\t\t\t\t\td_left = 1;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t\tcase
+        2:\r\n\t\t\t\t\t\ttit_left = \"%\";\r\n\t\t\t\t\t\td_left = 1;\r\n\r\n\t\t\t\t\t\tif(_.max(res.D1).toString().length
+        > 5) {\r\n\t\t\t\t\t\t\ttit_right = \"\uCC9C\uC6D0\";\r\n\t\t\t\t\t\t\td_right
+        = 1000;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse {\r\n\t\t\t\t\t\t\ttit_right
+        = \"\uC6D0\";\r\n\t\t\t\t\t\t\td_right = 1;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t\tcase
+        3:\r\n\t\t\t\t\t\ttit_right = \"%\";\r\n\t\t\t\t\t\td_right = 1;\r\n\r\n\t\t\t\t\t\tif(_.max(res.D2).toString().length
+        > 4) {\r\n\t\t\t\t\t\t\ttit_left = \"\uC5B5\uC6D0\";\r\n\t\t\t\t\t\t\td_left
+        = 1000;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse {\r\n\t\t\t\t\t\t\ttit_left =
+        \"\uBC31\uB9CC\uC6D0\";\r\n\t\t\t\t\t\t\td_left = 1;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t\t\t\t\r\n\t\t\t\t$('#stock_price_relative_chart').highcharts({\r\n\t\t\t\t\txAxis:
+        {\r\n\t\t\t\t\t\tcategories: res.TRD_DT,\r\n\t\t\t\t\t\ttype: 'datetime',\r\n\t\t\t\t\t\ttickInterval:
+        res.TRD_DT.length / 2\r\n\t\t\t\t\t},\r\n\t\t\t\t\trangeSelector: {\r\n\t\t\t\t\t\tenabled:
+        false\r\n\t\t\t\t\t},\r\n\t\t\t\t\tchart: {\r\n\t\t\t\t\t\tmarginLeft: 50,\r\n\t\t\t\t\t\tmarginRight:
+        60,\r\n\t\t\t\t\t\tmarginBottom: 60\r\n\t\t\t\t\t},\r\n\t\t\t\t\tyAxis: [{\r\n\t\t\t\t\t\ttitle:
+        {\r\n\t\t\t\t\t\t\tenabled: true, \r\n\t\t\t\t\t\t\talign: 'high',\r\n\t\t\t\t\t\t\ttext:
+        '['+tit_right+']',\r\n\t\t\t\t\t\t\trotation: 0,\r\n\t\t\t\t\t\t\ty: -10,\r\n\t\t\t\t\t\t\tmargin:0\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\theight:
+        120,\r\n\t\t\t\t\t\topposite: true,\r\n\t\t\t\t\t\tlabels: {\r\n\t\t\t\t\t\t\tformatter:
+        function () {\r\n\t\t\t\t\t\t\t\treturn flag == 3? \r\n\t\t\t\t\t\t\t\t\t\tHighcharts.numberFormat(this.value,
+        this.axis.dataMax / d_right < 5 ? 2:0) :\r\n\t\t\t\t\t\t\t\t\t\tHighcharts.numberFormat(this.value
+        / d_right, 0);\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tmaxPadding:
+        0,\r\n\t\t\t\t\t\tminPadding: 0,\r\n\t\t\t\t\t\ttickPixelInterval: 25\r\n\t\t\t\t\t},
+        {\r\n\t\t\t\t\t\ttop: 149,\r\n\t\t\t\t\t\theight: 37,\r\n\t\t\t\t\t\tshowLastLabel:
+        false,\r\n\t\t\t\t\t\topposite: true,\r\n\t\t\t\t\t\toffset:0,\r\n\t\t\t\t\t\ttickPixelInterval:25\r\n\t\t\t\t\t},
+        {\r\n\t\t\t\t\t\ttop: 127,\r\n\t\t\t\t\t\theight: 68,\r\n\t\t\t\t\t\toffset:
+        0,\r\n\t\t\t\t\t\tlabels: {\r\n\t\t\t\t\t\t\tenabled: false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\ttitle:
+        {\r\n\t\t\t\t\t\t\tenabled: false\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tminPadding:
+        0,\r\n\t\t\t\t\t\ttickPixelInterval: 25\r\n\t\t\t\t\t}, {\r\n\t\t\t\t\t\theight:
+        120,\r\n\t\t\t\t\t\ttitle: {\r\n\t\t\t\t\t\t\tenabled: true, \r\n\t\t\t\t\t\t\talign:
+        'high',\r\n\t\t\t\t\t\t\ttext: '['+tit_left+']',\r\n\t\t\t\t\t\t\trotation:
+        0,\r\n\t\t\t\t\t\t\ty: -10,\r\n\t\t\t\t\t\t\toffset:8\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tlabels:
+        {\r\n\t\t\t\t\t\t\tformatter: function () {\r\n\t\t\t\t\t\t\t\treturn flag
+        != 2? Highcharts.numberFormat(this.value / d_left, 0):this.value;\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tmaxPadding:
+        0,\r\n\t\t\t\t\t\tminPadding: 0,\r\n\t\t\t\t\t\ttickPixelInterval: 25\r\n\t\t\t\t\t}],\r\n\t\t\t\t\tnavigator:
+        {\r\n\t\t\t\t\t\tenabled: false\r\n\t\t\t\t\t},\r\n\t\t\t\t\tplotOptions:
+        {\r\n\t\t\t\t\t\tseries: { \r\n\t\t\t\t\t\t\tborderWidth: 0, \r\n\t\t\t\t\t\t\tmarker:
+        { enabled: false},\r\n\t\t\t\t\t\t\tshadow: false,\r\n\t\t\t\t\t\t\tborderWidth:
+        0\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t},\r\n\t\t\t\t\tscrollbar: {\r\n\t\t\t\t\t\tenabled:
+        false\r\n\t\t\t\t\t},\r\n\t\t\t\t\ttooltip: {\r\n\t\t\t\t\t\tformatter: function
+        () {\r\n\t\t\t\t\t\t\tvar tooltip = '<table class=\"chart-tooltip\"><tr><td
+        align=\"center\" colspan=\"3\">' + Highcharts.dateFormat('%Y/%m/%d', this.x)
+        + '</td></tr>';\r\n\t\t\t\t\t\t\tvar len = this.points.length - 1;\r\n\t\t\t\t\t\t\t$.each(this.points,
+        function (i, value) {\r\n\t\t\t\t\t\t\t\t//if(i == 0)\r\n\t\t\t\t\t\t\t\t//{\r\n\t\t\t\t\t\t\t\t//\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + (flag==3? Highcharts.numberFormat(value.y,
+        2, '.'):  Highcharts.numberFormat(value.y/d_right, 0, '.')) + ' '+tit_right
+        +'</td></tr>';\r\n\t\t\t\t\t\t\t\t//}\r\n\t\t\t\t\t\t\t\t//else if (i == len)\r\n\t\t\t\t\t\t\t\t//{\r\n\t\t\t\t\t\t\t\t//\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.')+ (flag==3?' \uC6D0':' \uC8FC') + '</td></tr>';\r\n\t\t\t\t\t\t\t\t//}\r\n\t\t\t\t\t\t\t\t//else
+        {\r\n\t\t\t\t\t\t\t\t//\ttooltip += '<tr><td style=\"color:' + value.series.color
+        + '\">' + value.series.name.replace('(\uC88C)', '') + '</td><td> : </td><td
+        align=\"right\">' + (flag==2? Highcharts.numberFormat(value.y, 2, '.'):  Highcharts.numberFormat(value.y/d_left,
+        0, '.'))+' '+tit_left+ '</td></tr>';\r\n\t\t\t\t\t\t\t\t//}\r\n\t\t\t\t\t\t\t\tif
+        (flag == 2) {\r\n\t\t\t\t\t\t\t\t\tif(value.series.name.indexOf('\uB300\uBE44(\uC88C)')
+        > -1)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:'
+        + value.series.color + '\">' + value.series.name.replace('(\uC88C)', '') +
+        '</td><td> : </td><td align=\"right\">' + (flag==2? Highcharts.numberFormat(value.y,
+        2, '.'):  Highcharts.numberFormat(value.y/d_left, 0, '.'))+' '+tit_left+ '</td></tr>';\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\telse
+        if (value.series.name.indexOf('\uAC70\uB798\uB7C9') > -1)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.')+ (flag==3?' \uC6D0':' \uC8FC') + '</td></tr>';\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\telse
+        {\r\n\t\t\t\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:' + value.series.color
+        + '\">' + value.series.name + '</td><td> : </td><td align=\"right\">' + (flag==3?
+        Highcharts.numberFormat(value.y, 2, '.'):  Highcharts.numberFormat(value.y/d_right,
+        0, '.')) + ' '+tit_right +'</td></tr>';\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\telse
+        if (flag == 1) {\r\n\t\t\t\t\t\t\t\t\tif(value.series.name.indexOf('\uB300\uAE08(\uC88C)')
+        > -1)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:'
+        + value.series.color + '\">' + value.series.name.replace('(\uC88C)', '') +
+        '</td><td> : </td><td align=\"right\">' + (flag==2? Highcharts.numberFormat(value.y,
+        2, '.'):  Highcharts.numberFormat(value.y/d_left, 0, '.'))+' '+tit_left+ '</td></tr>';\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\telse
+        if (value.series.name.indexOf('\uAC70\uB798\uB7C9') > -1)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.')+ (flag==3?' \uC6D0':' \uC8FC') + '</td></tr>';\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\telse
+        {\r\n\t\t\t\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:' + value.series.color
+        + '\">' + value.series.name + '</td><td> : </td><td align=\"right\">' + (flag==3?
+        Highcharts.numberFormat(value.y, 2, '.'):  Highcharts.numberFormat(value.y/d_right,
+        0, '.')) + ' '+tit_right +'</td></tr>';\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\telse
+        {\r\n\t\t\t\t\t\t\t\t\tif(value.series.name.indexOf('\uB9E4\uC218(\uC88C)')
+        > -1)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:'
+        + value.series.color + '\">' + value.series.name.replace('(\uC88C)', '') +
+        '</td><td> : </td><td align=\"right\">' + (flag==2? Highcharts.numberFormat(value.y,
+        2, '.'):  Highcharts.numberFormat(value.y/d_left, 0, '.'))+' '+tit_left+ '</td></tr>';\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\telse
+        if (value.series.name.indexOf('\uC218\uC815\uC8FC\uAC00') > -1)\r\n\t\t\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.')+ (flag==3?' \uC6D0':' \uC8FC') + '</td></tr>';\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t\telse
+        {\r\n\t\t\t\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:' + value.series.color
+        + '\">' + value.series.name + '</td><td> : </td><td align=\"right\">' + (flag==3?
+        Highcharts.numberFormat(value.y, 2, '.'):  Highcharts.numberFormat(value.y/d_right,
+        0, '.')) + ' '+tit_right +'</td></tr>';\r\n\t\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t});\r\n\t\t\t\t\t\t\ttooltip
+        += '</table>';\r\n\t\t\t\t\t\t\treturn tooltip;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t,
+        shared: true\r\n\t\t\t\t\t},\r\n\t\t\t\t\tseries: [{\r\n\t\t\t\t\t\ttype:
+        'line',\r\n\t\t\t\t\t\tname: res.D1_NM,\r\n\t\t\t\t\t\tyAxis: 0,\r\n\t\t\t\t\t\tfillOpacity:
+        0.1,\r\n\t\t\t\t\t\tdata: res.D1\r\n\t\t\t\t\t}, {\r\n\t\t\t\t\t\ttype: 'line',\r\n\t\t\t\t\t\tname:
+        res.D2_NM + \"(\uC88C)\",\r\n\t\t\t\t\t\tyAxis: 3,\r\n\t\t\t\t\t\tdata: res.D2\r\n\t\t\t\t\t},
+        {\r\n\t\t\t\t\t\ttype: 'line',\r\n\t\t\t\t\t\tname: res.D3_NM + \"(\uC88C)\",\r\n\t\t\t\t\t\tyAxis:
+        3,\r\n\t\t\t\t\t\tdata: res.D3,\r\n\t\t\t\t\t\tvisible: flag!=2?false:true,\r\n\t\t\t\t\t\tshowInLegend:
+        flag!=2?false:true\r\n\t\t\t\t\t},  {\r\n\t\t\t\t\t\ttype: flag == 3? 'line':'column',\r\n\t\t\t\t\t\tname:
+        flag == 3? '\uC218\uC815\uC8FC\uAC00':'\uAC70\uB798\uB7C9',\r\n\t\t\t\t\t\tyAxis:
+        1,\r\n\t\t\t\t\t\tdata: flag == 3? res.TRD_ADJ_PRC:res.TRD_QTY\r\n\t\t\t\t\t}]\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\telse{\r\n\t\t\tif($('#stock_price_relative_chart
+        img').attr('src') == undefined)\r\n\t\t\t{\r\n\t\t\t\t$('#stock_price_relative_chart').html('<img
+        src=\"/chartimg/page1/chart1/005930c1.png?20260414\" />')\r\n\t\t\t\t\t\r\n\t\t\t}\r\n\t\t\tvar
+        src = $('#stock_price_relative_chart img').attr('src')\r\n\t\t\tvar old =
+        src.substr(src.indexOf('png') - 3, 2);\r\n\t\t\t$('#stock_price_relative_chart
+        img').attr('src', src.replace(old, \"c\" + flag));\r\n\t\t}\r\n\t} // End
+        Of stockChart\r\n\r\n\t// \uD380\uB354\uBA58\uD138 > \uC5B4\uB2DD\uC11C\uD504\uB77C\uC774\uC988\r\n\tvar
+        EarnigList = function () {\r\n\t\tvar res = {\"yymm\":[\"202509\",\"202512\",\"202603\"],\"data\":[{\"1\":101922.750000000000,\"2\":185098.038461538500,\"3\":401923.440000000000},{\"1\":121000.000000000000,\"2\":200000.000000000000,\"3\":572000.000000000000},{\"1\":18.717360000000,\"2\":8.050850000000,\"3\":42.315660000000},{\"1\":31.759900000000,\"2\":208.038120000000,\"3\":755.612160000000},{\"1\":158.765020000000,\"2\":64.391730000000,\"3\":184.950530000000},{\"1\":96001.555555555600,\"2\":163415.818181818200,\"3\":314258.000000000000},{\"1\":120064.000000000000,\"2\":192920.000000000000,\"3\":null},{\"1\":25.064640000000,\"2\":18.054670000000,\"3\":null},{\"1\":22.745410000000,\"2\":154.641780000000,\"3\":null},{\"1\":143.338410000000,\"2\":60.680150000000,\"3\":null}],\"yymmdd\":[\"2025/10/14(\uC5F0\uACB0)\",\"2026/01/08(\uC5F0\uACB0)\",\"2026/04/07(\uC5F0\uACB0)\"],\"type\":[1,1,0]};\r\n\t\ttmp
+        = _.template($(\"#tmpl-list\").html());\r\n\t\t$(\"#earning_list tbody\").html(tmp(res));\r\n\r\n\t\t$(\".btn_moreE.earn\").click(function(){\r\n\t\t\tif($('span',
+        this).hasClass('on'))\r\n\t\t\t{\r\n\t\t\t\t$(\".btn_moreE.earn span\").removeClass('on');\r\n\t\t\t\t$('.ext0').hide();\r\n\t\t\t}\r\n\t\t\telse\r\n\t\t\t{\r\n\t\t\t\t$(\".btn_moreE.earn
+        span\").addClass('on');\r\n\t\t\t\t$('.ext0').show();\r\n\t\t\t}\r\n\t\t});\r\n\t\t\r\n\t}
+        // End Of EarnigList\r\n\t\r\n\t\t// \uC7AC\uBB34\uB9AC\uC2A4\uD2B8 \uCEE8\uC13C\uC11C\uC2A4
+        \uBCF4\uAE30 \uAE30\uB2A5 \uC801\uC6A9\r\n\t\tfunction getAddInfoData01(extY,
+        extQ)\r\n\t\t{\r\n\t\t\tvar _freq_typ;\r\n\t\t\tvar _fin_typ;\r\n\r\n\t\t\tswitch($('#cTB00
+        .on').attr('id'))\r\n\t\t\t{\r\n\t\t\t\tcase \"cns_td20\": _freq_typ = \"A\";
+        break;\r\n\t\t\t\tcase \"cns_td21\": _freq_typ = \"Y\"; break;\r\n\t\t\t\tcase
+        \"cns_td22\": _freq_typ = \"Q\"; break;\r\n\t\t\t}\r\n\t\t\t\r\n\t\t\tswitch($(\"#finGubun
+        > option:selected\").val())\r\n\t\t\t{\r\n\t\t\t\tcase \"MAIN\" : _fin_typ
+        = 0; break;\r\n\t\t\t\tcase \"GAAPS\": _fin_typ = 1; break;\r\n\t\t\t\tcase
+        \"GAAPL\": _fin_typ = 2; break;\r\n\t\t\t\tcase \"IFRSS\": _fin_typ = 3; break;\r\n\t\t\t\tcase
+        \"IFRSL\": _fin_typ = 4; break;\r\n\t\t\t}\r\n\t\t\t$.ajax({\r\n\t\t\t\turl
+        \    : \"ajax/cF1001.aspx\",\r\n\t\t\t\tasync  : false,\r\n\t\t\t\ttype    :
+        'get',\r\n\t\t\t\tdataType: 'html',\r\n\t\t\t\tdata: {\r\n\t\t\t\t\tcmp_cd
+        \   : '005930'\r\n                , fin_typ : _fin_typ\r\n\t\t\t\t, freq_typ:
+        _freq_typ\r\n\t\t\t\t, extY: extY\r\n                , extQ: extQ\r\n                ,
+        encparam: 'cE5PREZ4Q3ViYlNWNEVqRkZINVZxZz09'\r\n                , id: 'bG05RlB6cn'
+        ? 'bG05RlB6cn' : ''\r\n\t\t\t\t},\r\n\t\t\t\tsuccess: function (data) {\r\n\t\t\t\t\tgtag('config',
+        'UA-74989022-7', {'page_path': '/company/ajax/cF1001.aspx'});\r\n\t\t\t\t\t$('#bG05RlB6cn').html(data);\r\n\t\t\t\t\tif(extQ==0)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\t$('.r02c07').addClass('endLine')\r\n\t\t\t\t\t}\r\n\t\t\t\t\t//
+        \uC7AC\uBB34 \uCEEC\uB7FC \uD3BC\uCE58\uAE30\r\n\t\t\t\t\t$('.btn_moreY').click(function(){\r\n\t\t\t\t\t\tif($(this).data('ext')==0){\r\n\t\t\t\t\t\t\tgetAddInfoData01(1,
+        $('.btn_moreQ').data('ext'));\r\n\t\t\t\t\t\t\t$(this).data('ext',1);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse{\r\n\t\t\t\t\t\t\tgetAddInfoData01(0,
+        $('.btn_moreQ').data('ext'));\r\n\t\t\t\t\t\t\t$(this).data('ext',0);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t});\r\n\t\t\t\t\t$('.btn_moreQ').click(function(){\r\n\t\t\t\t\t\tif($(this).data('ext')==0){\r\n\t\t\t\t\t\t\tgetAddInfoData01($('.btn_moreY').data('ext'),1);\r\n\t\t\t\t\t\t\t$(this).data('ext',1);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\telse{\r\n\t\t\t\t\t\t\tgetAddInfoData01($('.btn_moreY').data('ext'),0);\r\n\t\t\t\t\t\t\t$(this).data('ext',0);\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t});\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t}\r\n\r\n\t\t//
+        \uD22C\uC790\uC758\uACAC \uBC0F \uBAA9\uD45C\uC8FC\uAC00 \uCC28\uD2B8\r\n\t\t$('#opinion_targetPrice').show();\r\n\t\tif
+        (chartType != 'image'){\r\n\t\t\tvar chartData2 = {\"target_price\":[{\"x\":1748563200000.0,\"y\":74769.0},{\"x\":1751241600000.0,\"y\":75000.0},{\"x\":1753920000000.0,\"y\":76333.0},{\"x\":1756425600000.0,\"y\":84083.0},{\"x\":1759190400000.0,\"y\":95320.0},{\"x\":1761868800000.0,\"y\":131731.0},{\"x\":1764288000000.0,\"y\":136615.0},{\"x\":1767052800000.0,\"y\":139385.0},{\"x\":1769731200000.0,\"y\":207654.0},{\"x\":1772150400000.0,\"y\":234660.0},{\"x\":1774915200000.0,\"y\":252720.0},{\"x\":1776124800000.0,\"y\":null}],\"close_price\":[{\"x\":1748563200000.0,\"y\":56200.0},{\"x\":1751241600000.0,\"y\":59800.0},{\"x\":1753920000000.0,\"y\":71400.0},{\"x\":1756425600000.0,\"y\":69700.0},{\"x\":1759190400000.0,\"y\":83900.0},{\"x\":1761868800000.0,\"y\":107500.0},{\"x\":1764288000000.0,\"y\":100500.0},{\"x\":1767052800000.0,\"y\":119900.0},{\"x\":1769731200000.0,\"y\":160500.0},{\"x\":1772150400000.0,\"y\":216500.0},{\"x\":1774915200000.0,\"y\":167200.0},{\"x\":1776124800000.0,\"y\":206500.0}],\"deg\":[{\"x\":1748563200000.0,\"y\":4.00},{\"x\":1751241600000.0,\"y\":4.00},{\"x\":1753920000000.0,\"y\":4.00},{\"x\":1756425600000.0,\"y\":4.00},{\"x\":1759190400000.0,\"y\":4.00},{\"x\":1761868800000.0,\"y\":4.00},{\"x\":1764288000000.0,\"y\":4.00},{\"x\":1767052800000.0,\"y\":4.00},{\"x\":1769731200000.0,\"y\":4.00},{\"x\":1772150400000.0,\"y\":4.00},{\"x\":1774915200000.0,\"y\":4.00},{\"x\":1776124800000.0,\"y\":null}]};\r\n\t\t\tnew
+        Highcharts.Chart({\r\n\t\t\t\tchart: {\r\n\t\t\t\t\trenderTo: 'opinion_targetPrice',\r\n\t\t\t\t\ttype:
+        'line'\r\n\t\t\t\t}\r\n\t\t\t\t, xAxis: {\r\n\t\t\t\t\tlabels: {\r\n\t\t\t\t\t\tformatter:
+        function () { return Highcharts.dateFormat('%y/%m/%d', this.value); }\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\t,yAxis:
+        [{\r\n\t\t\t\t\ttitle: {\r\n\t\t\t\t\t\ttext: '[\uC6D0]' ,align: 'high' ,y:
+        -7 ,rotation:0, x:10 ,offset:40\r\n\t\t\t\t\t},\r\n\t\t\t\t\topposite: true\r\n\t\t\t\t},{\r\n\t\t\t\t\tmin:3,max:5,minPadding:
+        0.5, maxPadding: 0.5,tickInterval: 0.5,\r\n\t\t\t\t\tlabels: {\r\n\t\t\t\t\t\tformatter:
+        function () { return Highcharts.numberFormat(this.value, 2, '.'); }\r\n\t\t\t\t\t}\r\n\t\t\t\t}]\r\n\t\t\t\t,
+        tooltip: {\r\n\t\t\t\t\tformatter: function () {\r\n\t\t\t\t\t\tvar tooltip
+        = '<table class=\"chart-tooltip\"><tr><td align=\"center\" colspan=\"3\">'
+        + Highcharts.dateFormat('%Y/%m/%d', this.x) + '</td></tr>';\r\n\t\t\t\t\t\t$.each(this.points,
+        function (i, value) {\r\n\t\t\t\t\t\t\tif (value.series.name.indexOf('(\uC88C)')
+        > 0) {\r\n\t\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:' + value.series.color
+        + '\">' + value.series.name + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        2, '.') + '</td></tr>';\r\n\t\t\t\t\t\t\t} else {\r\n\t\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.') + ' \uC6D0 </td></tr>';\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t});\r\n\t\t\t\t\t\ttooltip
+        += '</table>';\r\n\t\t\t\t\t\treturn tooltip;\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\tseries:
+        [{\r\n\t\t\t\t\ttype:'column',\r\n\t\t\t\t\tname: '\uD22C\uC790\uC758\uACAC(\uC88C)',\r\n\t\t\t\t\tdata:
+        chartData2.deg,\r\n\t\t\t\t\tyAxis: 1 ,\r\n\t\t\t\t\tmarker: {\r\n\t\t\t\t\t\tenabled:
+        false\r\n\t\t\t\t\t}\r\n\t\t\t\t\t,legendIndex:0\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        '\uBAA9\uD45C\uC8FC\uAC00',\r\n\t\t\t\t\tdata: chartData2.target_price,\r\n\t\t\t\t\tmarker:
+        {\r\n\t\t\t\t\t\tenabled: true,\r\n\t\t\t\t\t\tsymbol: 'circle'\r\n\t\t\t\t\t}\r\n\t\t\t\t\t,legendIndex:1\r\n\t\t\t\t},
+        {\r\n\t\t\t\t\tname: '\uC218\uC815\uC8FC\uAC00',\r\n\t\t\t\t\tdata: chartData2.close_price,\r\n\t\t\t\t\tmarker:
+        {\r\n\t\t\t\t\t\tenabled: true,\r\n\t\t\t\t\t\tsymbol: 'triangle'\r\n\t\t\t\t\t}\r\n\t\t\t\t\t,legendIndex:2\r\n\t\t\t\t}]\r\n\t\t\t});\r\n\t\t\tchartData2
+        = null;\r\n\t\t} else {\r\n\t\t\t$('#opinion_targetPrice').html('<img src=\"/chartimg/page1/chart2/005930.png?20260414\"
+        />');\r\n\t\t}\r\n\r\n\t\t// \uD22C\uC790\uC758\uACAC \uBD84\uD3EC \uCC28\uD2B8
+        \r\n\t\t$('#opinion').show();\r\n\t\tif (chartType != 'image'){\r\n\t\t\tvar
+        chartData3 = {\"today\":[{\"name\":\"\uAC15\uB825\uB9E4\uC218\",\"y\":null},{\"name\":\"\uB9E4\uC218\",\"y\":25.0},{\"name\":\"\uC911\uB9BD\",\"y\":null},{\"name\":\"\uB9E4\uB3C4\",\"y\":null},{\"name\":\"\uAC15\uB825\uB9E4\uB3C4\",\"y\":null}],\"a_month_ago\":[{\"name\":\"\uAC15\uB825\uB9E4\uC218\",\"y\":null},{\"name\":\"\uB9E4\uC218\",\"y\":25.0},{\"name\":\"\uC911\uB9BD\",\"y\":null},{\"name\":\"\uB9E4\uB3C4\",\"y\":null},{\"name\":\"\uAC15\uB825\uB9E4\uB3C4\",\"y\":null}]};\r\n\t\t\tnew
+        Highcharts.Chart({\r\n\t\t\t\tchart: {\r\n\t\t\t\t\trenderTo: 'opinion',\r\n\t\t\t\t\ttype:
+        'column'\r\n\t\t\t\t},\r\n\t\t\t\txAxis: {\r\n\t\t\t\t\tcategories: ['\uAC15\uB825\uB9E4\uC218',
+        '\uB9E4\uC218','\uC911\uB9BD','\uB9E4\uB3C4','\uAC15\uB825\uB9E4\uB3C4'],\r\n\t\t\t\t\tlabels:
+        {\r\n\t\t\t\t\t\tformatter: function () { return this.value }\r\n\t\t\t\t\t}\r\n\t\t\t\t\t,
+        type: 'string'\r\n\t\t\t\t},\r\n\t\t\t\ttooltip:{\r\n\t\t\t\t\tcrosshairs:
+        false,\r\n\t\t\t\t\tformatter:function(){\r\n\t\t\t\t\t\tvar tooltip = '<table
+        class=\"chart-tooltip\"><tr><td align=\"center\" colspan=\"3\">\uD22C\uC790\uC758\uACAC:'
+        + this.x + '</td></tr>';\r\n\t\t\t\t\t\t$.each(this.points, function (i, value)
+        {\r\n\t\t\t\t\t\t\ttooltip += '<tr><td style=\"color:' + value.series.color
+        + '\">' + value.series.name + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.') + ' \uAC74 </td></tr>';\r\n\t\t\t\t\t\t});\r\n\t\t\t\t\t\ttooltip
+        += '</table>';\r\n\t\t\t\t\t\treturn tooltip;\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\tplotOptions:
+        {\r\n\t\t\t\t\tcolumn: {\r\n\t\t\t\t\t\tdataLabels: {\r\n\t\t\t\t\t\t\tenabled:
+        true\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\tseries: [{\r\n\t\t\t\t\tname:
+        '\uD604\uC7AC',\r\n\t\t\t\t\tdata: chartData3.today\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        '\uD55C\uB2EC\uC804',\r\n\t\t\t\t\tdata: chartData3.a_month_ago \r\n\t\t\t\t}]\r\n\t\t\t});\r\n\t\t\tchartData3
+        = null;\r\n\t\t} else {\r\n\t\t\t$('#opinion').html('<img src=\"/chartimg/page1/chart3/005930.png?20260414\"
+        />');\r\n\t\t} \r\n\t//\uC790\uB3D9\uC644\uC131 \uC0C1\uB2E8 \uAC80\uC0C9\uC5D0\uC11C\uC758
+        highlight\uAE30\uB2A5\uCD94\uAC00\uD558\uAE30\r\n\tjQuery.fn.highlight = function
+        (str, className) {\r\n\t\tvar regex = new RegExp(\"(\" + str + \")\", \"gi\");\r\n\t\treturn
+        this.each(function () {\r\n\t\t\tthis.innerHTML = this.innerHTML.replace(\"&amp;\",
+        \"&\").replace(regex, \"<span class=\\\"\" + className + \"\\\">$1</span>\");\r\n\t\t});\r\n\t};\r\n
+        \   \t\r\n\tfunction setValCookie()\r\n\t{\r\n\t\tvar setVal = [\r\n\t\t\t{\r\n\t\t\t\t'conGubun'
+        \      : $(\"#conGubun > option:selected\").val(),      //\uCD94\uC815\uC2E4\uC801
+        \uCEE8\uC13C\uC11C\uC2A4\r\n\t\t\t\t'cTB23'          : $('#cTB23 td.on').attr('id'),
+        \               //\uC5F0\uAC04,\uBD84\uAE30\r\n\t\t\t\t'bandChartGubun' :
+        $(\"#bandChartGubun > option:selected\").val(),//\uBC34\uB4DC\uCC28\uD2B8
+        \uAD6C\uBD84\r\n\t\t\t\t'finGubun'       : $(\"#finGubun > option:selected\").val(),\r\n\t\t\t\t'cTB00'
+        \         : $('#cTB00 td.on').attr('id')                 //\uC804\uCCB4,\uC5F0\uAC04,\uBD84\uAE30\r\n\t\t\t}\r\n\t\t];\r\n\t\t$.cookie(\"setC1010001\",
+        JSON.stringify(setVal));\r\n\t}\r\n\r\n\tfunction getValCookie(){\r\n\t\t//\uB9CC\uC57D
+        \uCFE0\uD0A4 \uAC12\uC744 \uAC00\uC838\uC624\uB824\uB294\uB370. \uAE30\uC874\uC5D0
+        \uC800\uC7A5\uB41C \uAC12\uC774 \uC5C6\uB2E4\uBA74 \uD604\uC7AC \uD398\uC774\uC9C0\uAC12\uC744
+        \uC800\uC7A5\uD55C\uB2E4.\r\n\t\tif($.cookie('setC1010001') == undefined ||
+        $.cookie('setC1010001') == \"\" || $.cookie('setC1010001') == null){\r\n\t\t\tsetValCookie();\r\n\t\t}\r\n\t\t\r\n
+        \       if ($.cookie('setC1010001') != null) {\r\n            var setVal =
+        JSON.parse($.cookie('setC1010001'))[0];\r\n            $('#conGubun').val(setVal.conGubun);
+        \                //\uC120\uD0DD\uBC15\uC2A4\t\t: \uCD94\uC815\uC2E4\uC801\uCEE8\uC13C\uC11C\uC2A4\r\n
+        \           $('#cTB23 #' + setVal.cTB23 + '>a').trigger('click');   //\uD0ED\t\t\t:
+        \uCD94\uC815\uC2E4\uC801\uCEE8\uC13C\uC11C\uC2A4 \uC5F0\uAC04,\uBD84\uAE30
+        [frmFS1\uC758 url \uC124\uC815 cf1002.aspx]\r\n            $('#bandChartGubun').val(setVal.bandChartGubun);
+        \    //\uC120\uD0DD\uBC15\uC2A4\t\t: \uBC34\uB4DC\uCC28\uD2B8\r\n            $('#finGubun').val(setVal.finGubun);
+        \                //\uC120\uD0DD\uBC15\uC2A4\t\t: \uC8FC\uC7AC\uBB34\uC81C\uD45C,K-IFRS(\uBCC4\uB3C4),
+        K-IFRS(\uC5F0\uACB0), K-GAAP(\uAC1C\uBCC4), K-GAAP(\uC5F0\uACB0)\r\n            $('#cTB00
+        #' + setVal.cTB00 + '>a').trigger('click');   //\uD0ED\t\t\t: \uC804\uCCB4,\uC5F0\uAC04,\uBD84\uAE30\r\n
+        \       }\r\n        else {\r\n            $('#conGubun').val($(\"#conGubun
+        > option:selected\").val());                 //\uC120\uD0DD\uBC15\uC2A4\t\t:
+        \uCD94\uC815\uC2E4\uC801\uCEE8\uC13C\uC11C\uC2A4\r\n            $('#cTB23
+        #' + $('#cTB23 td.on').attr('id') + '>a').trigger('click');   //\uD0ED\t\t\t:
+        \uCD94\uC815\uC2E4\uC801\uCEE8\uC13C\uC11C\uC2A4 \uC5F0\uAC04,\uBD84\uAE30
+        [frmFS1\uC758 url \uC124\uC815 cf1002.aspx]\r\n            $('#bandChartGubun').val($(\"#bandChartGubun
+        > option:selected\").val());     //\uC120\uD0DD\uBC15\uC2A4\t\t: \uBC34\uB4DC\uCC28\uD2B8\r\n
+        \           $('#finGubun').val($(\"#finGubun > option:selected\").val());
+        \                //\uC120\uD0DD\uBC15\uC2A4\t\t: \uC8FC\uC7AC\uBB34\uC81C\uD45C,K-IFRS(\uBCC4\uB3C4),
+        K-IFRS(\uC5F0\uACB0), K-GAAP(\uAC1C\uBCC4), K-GAAP(\uC5F0\uACB0)\r\n            $('#cTB00
+        #' + $('#cTB00 td.on').attr('id') + '>a').trigger('click');   //\uD0ED\t\t\t:
+        \uC804\uCCB4,\uC5F0\uAC04,\uBD84\uAE30\r\n        }\r\n\t}\r\n\r\n\tfunction
+        getParameterByName(name) {\r\n\t\tname = name.replace(/[\\[]/, \"\\\\[\").replace(/[\\]]/,
+        \"\\\\]\");\r\n\t\tvar regex = new RegExp(\"[\\\\?&]\" + name + \"=([^&#]*)\"),\r\n\t\t\tresults
+        = regex.exec(location.search);\r\n\t\treturn results === null ? \"\" : decodeURIComponent(results[1].replace(/\\+/g,
+        \" \"));\r\n\t}\r\n\r\n\tfunction initFinGubun() {\r\n\t\tvar finGubun = ($.cookie('finGubun')
+        != null) ? $.cookie('finGubun') : 'MAIN';\r\n\t\t$('#conGubun > option[value='
+        + finGubun + ']').attr('selected', 'true');\r\n\t\t//var url = '../company/cF1002.aspx?cmp_cd=005930&finGubun='
+        + finGubun;\r\n\t\t//$('#frmFS1').attr('src', url);\r\n\t\t$.ajax({\r\n\t\t\turl:
+        '../company/cF1002.aspx',\r\n\t\t\tasync : true,\r\n\t\t\tdataType: 'html',\r\n\t\t\tdata:
+        {\r\n\t\t\t\tcmp_cd: '005930',\r\n\t\t\t\tfinGubun: finGubun\r\n\t\t\t},\r\n\t\t\tsuccess:
+        function (res) {\r\n\t\t\t\tgtag('config', 'UA-74989022-7', {'page_path':
+        '/company/cF1002.aspx'});\r\n\t\t\t\t$(\"#frmFS1\").html(res);\r\n\t\t\t}\r\n\t\t});\r\n\r\n\t\t$('#bandChartGubun
+        > option[value=' + finGubun + ']').attr('selected', 'true');\r\n\t\t$('#finGubun
+        > option[value=' + finGubun + ']').attr('selected', 'true');\r\n\t}\r\n\r\n\tfunction
+        makeBandChart(res, cmp_cd, gubun) {\r\n\t\tvar chartType = 'svg';\r\n\t\t$('#pbr-chart,#per-chart').show();\r\n
+        \       if (chartType != 'image') {\r\n             var yAxisMaxArray = new
+        Array();\r\n\r\n            yAxisMaxArray.push(_.max(res.bandChart1.price,
+        function (item) { return item.y }).y);\r\n            yAxisMaxArray.push(_.max(res.bandChart1.val1,
+        function (item) { return item.y }).y);\r\n            yAxisMaxArray.push(_.max(res.bandChart1.val2,
+        function (item) { return item.y }).y);\r\n            yAxisMaxArray.push(_.max(res.bandChart1.val3,
+        function (item) { return item.y }).y);\r\n            yAxisMaxArray.push(_.max(res.bandChart1.val4,
+        function (item) { return item.y }).y);\r\n\r\n            var yAxisMax = _.max(yAxisMaxArray);\r\n\r\n
+        \           var pbr_yAxisMaxArray = new Array();\r\n\r\n            pbr_yAxisMaxArray.push(_.max(res.bandChart2.price,
+        function (item) { return item.y }).y);\r\n            pbr_yAxisMaxArray.push(_.max(res.bandChart2.val1,
+        function (item) { return item.y }).y);\r\n            pbr_yAxisMaxArray.push(_.max(res.bandChart2.val2,
+        function (item) { return item.y }).y);\r\n            pbr_yAxisMaxArray.push(_.max(res.bandChart2.val3,
+        function (item) { return item.y }).y);\r\n            pbr_yAxisMaxArray.push(_.max(res.bandChart2.val4,
+        function (item) { return item.y }).y);\r\n\r\n            var pbrYAxisMax
+        = _.max(pbr_yAxisMaxArray);\r\n\r\n            var legendLength = res.bandChart1.name.VAL1.length
+        + res.bandChart1.name.VAL2.length + res.bandChart1.name.VAL3.length + res.bandChart1.name.VAL4.length;\r\n\r\n\t\t\tnew
+        Highcharts.Chart({\r\n\t\t\t\tchart: {\r\n\t\t\t\t\trenderTo: 'per-chart',\r\n\t\t\t\t\ttype:
+        'line'\r\n\t\t\t\t},\r\n\t\t\t\tyAxis: {\r\n\t\t\t\t\tmin: 0,\r\n\t\t\t\t\tmax:
+        yAxisMax\r\n\t\t\t\t},\r\n\t\t\t\tlegend: {\r\n\t\t\t\t    labelFormatter:
+        function () {\r\n\t\t\t\t        return (this.name.indexOf('Series') > -1)
+        ? '0.0\uBC30' : this.name;\r\n                    },\r\n                    itemStyle:
+        {\r\n                        fontSize: legendLength > 20 ? '10px' : '12px'\r\n
+        \                   }\r\n\t\t\t\t},\r\n\t\t\t\ttooltip: {\r\n\t\t\t\t\tformatter:
+        function () {\r\n\t\t\t\t\t\tvar tooltip = '<table class=\"chart-tooltip\"><tr><td
+        align=\"center\" colspan=\"3\">' + Highcharts.dateFormat('%Y/%m/%d', this.x)
+        + '</td></tr>';\r\n\t\t\t\t\t\tvar points = this.points[this.points.length-1];\r\n\t\t\t\t\t\tif(points.series.name
+        == \"\uC218\uC815\uC8FC\uAC00\")\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + points.series.color + '\">' + points.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(points.y,
+        0, '.') + ' \uC6D0</td></tr>';\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t$.each(this.points,
+        function (i, value) {\r\n\t\t\t\t\t\t\tif(value.series.name != \"\uC218\uC815\uC8FC\uAC00\")\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.') + ' \uC6D0</td></tr>';\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t});\r\n\t\t\t\t\t\ttooltip
+        += '</table>';\r\n\t\t\t\t\t\treturn tooltip;\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\tseries:
+        [{\r\n\t\t\t\t\tname: '\uC218\uC815\uC8FC\uAC00',\r\n\t\t\t\t\tdata: res.bandChart1.price,\r\n\t\t\t\t\tindex:
+        5,\r\n\t\t\t\t\tlegendIndex:1,\r\n\t\t\t\t\tlineWidth: 3\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart1.name.VAL4,\r\n\t\t\t\t\tdata: res.bandChart1.val4,\r\n\t\t\t\t\tindex:
+        1,\r\n\t\t\t\t\tlegendIndex:2,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart1.name.VAL3,\r\n\t\t\t\t\tdata: res.bandChart1.val3,\r\n\t\t\t\t\tindex:
+        2,\r\n\t\t\t\t\tlegendIndex:3,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart1.name.VAL2,\r\n\t\t\t\t\tdata: res.bandChart1.val2,\r\n\t\t\t\t\tindex:
+        3,\r\n\t\t\t\t\tlegendIndex:4,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart1.name.VAL1,\r\n\t\t\t\t\tdata: res.bandChart1.val1,\r\n\t\t\t\t\tindex:
+        4,\r\n\t\t\t\t\tlegendIndex:5,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}]\r\n
+        \           });\r\n\r\n            legendLength = res.bandChart2.name.VAL1.length
+        + res.bandChart2.name.VAL2.length + res.bandChart2.name.VAL3.length + res.bandChart2.name.VAL4.length;\r\n\r\n\t\t\tnew
+        Highcharts.Chart({\r\n\t\t\t\tchart: {\r\n\t\t\t\t\trenderTo: 'pbr-chart',\r\n\t\t\t\t\ttype:
+        'line'\r\n\t\t\t\t},\r\n\t\t\t\tyAxis: {\r\n\t\t\t\t\tmin: 0,\r\n\t\t\t\t\tmax:
+        pbrYAxisMax\r\n\t\t\t\t},\r\n\t\t\t\tlegend: {\r\n\t\t\t\t    labelFormatter:
+        function () {\r\n\t\t\t\t        return (this.name.indexOf('Series') > -1)
+        ? '0.0\uBC30' : this.name;\r\n                    },\r\n                    itemStyle:
+        {\r\n                        fontSize: legendLength > 20 ? '10px' : '12px'\r\n
+        \                   }\r\n\t\t\t\t},\r\n\t\t\t\ttooltip: {\r\n\t\t\t\t\tformatter:
+        function () {\r\n\t\t\t\t\t\tvar tooltip = '<table class=\"chart-tooltip\"><tr><td
+        align=\"center\" colspan=\"3\">' + Highcharts.dateFormat('%Y/%m/%d', this.x)
+        + '</td></tr>';\r\n\t\t\t\t\t\tvar points = this.points[this.points.length-1];\r\n\t\t\t\t\t\tif(points.series.name
+        == \"\uC218\uC815\uC8FC\uAC00\")\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + points.series.color + '\">' + points.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(points.y,
+        0, '.') + ' \uC6D0</td></tr>';\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\t$.each(this.points,
+        function (i, value) {\r\n\t\t\t\t\t\t\tif(value.series.name != \"\uC218\uC815\uC8FC\uAC00\")\r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\ttooltip
+        += '<tr><td style=\"color:' + value.series.color + '\">' + value.series.name
+        + '</td><td> : </td><td align=\"right\">' + Highcharts.numberFormat(value.y,
+        0, '.') + ' \uC6D0</td></tr>';\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t});\r\n\t\t\t\t\t\ttooltip
+        += '</table>';\r\n\t\t\t\t\t\treturn tooltip;\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\tseries:
+        [{\r\n\t\t\t\t\tname: '\uC218\uC815\uC8FC\uAC00',\r\n\t\t\t\t\tdata: res.bandChart2.price,\r\n\t\t\t\t\tindex:
+        5,\r\n\t\t\t\t\tlegendIndex:1,\r\n\t\t\t\t\tlineWidth: 3\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart2.name.VAL4,\r\n\t\t\t\t\tdata: res.bandChart2.val4,\r\n\t\t\t\t\tindex:
+        1,\r\n\t\t\t\t\tlegendIndex:2,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart2.name.VAL3,\r\n\t\t\t\t\tdata: res.bandChart2.val3,\r\n\t\t\t\t\tindex:
+        2,\r\n\t\t\t\t\tlegendIndex:3,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart2.name.VAL2,\r\n\t\t\t\t\tdata: res.bandChart2.val2,\r\n\t\t\t\t\tindex:
+        3,\r\n\t\t\t\t\tlegendIndex:4,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}, {\r\n\t\t\t\t\tname:
+        res.bandChart2.name.VAL1,\r\n\t\t\t\t\tdata: res.bandChart2.val1,\r\n\t\t\t\t\tindex:
+        4,\r\n\t\t\t\t\tlegendIndex:5,\r\n\t\t\t\t\tshadow: false\r\n\t\t\t\t}]\r\n\t\t\t});\r\n\t\t}\r\n\t\telse
+        {\r\n\t\t\t$('#per-chart').html(\"<img src='/chartimg/bandchart/per/\" + cmp_cd
+        + \"_\" + gubun + \".png?20260414' alt='PER \uBC34\uB4DC \uCC28\uD2B8 \uC774\uBBF8\uC9C0'/>\");\r\n\t\t\t$('#pbr-chart').html(\"<img
+        src='/chartimg/bandchart/pbr/\" + cmp_cd + \"_\" + gubun + \".png?20260414'
+        alt='PBR \uBC34\uB4DC \uCC28\uD2B8 \uC774\uBBF8\uC9C0'/>\");\r\n\t\t}\r\n\t}\r\n\tfunction
+        RequestBandChart() {\r\n\t\tvar chartType = 'svg';\r\n\t\tvar cmp_cd = \"005930\";\r\n\t\tvar
+        chartGubun = $(\"#bandChartGubun\").val();\r\n\t\tvar gubun = \"4\";\r\n\t\tif
+        (chartGubun == \"MAIN\")\r\n\t\t\tgubun = \"0\";\r\n\t\telse if (chartGubun
+        == \"IFRSL\")\r\n\t\t\tgubun = \"4\";\r\n\t\telse if (chartGubun == \"IFRSS\")\r\n\t\t\tgubun
+        = \"3\";\r\n\t\telse if (chartGubun == \"GAAPL\")\r\n\t\t\tgubun = \"2\";\r\n\t\telse
+        if (chartGubun == \"GAAPS\")\r\n\t\t\tgubun = \"1\";\r\n\r\n\t\tvar aurl =
+        (chartType != 'image') ? '/common/BandChart3.aspx?cmp_cd=' + cmp_cd + '&gubun='
+        + gubun : '/company/chart/bandChart.aspx?cmp_cd=' + cmp_cd + '&gubun=' + gubun;\r\n\t\t//
+        json\uC758 \uACBD\uC6B0 gzip \uC555\uCD95\uC774 \uB418\uC9C0 \uC54A\uB294
+        \uBB38\uC81C\uAC00 \uC788\uC5B4\uC11C text/html \uD615\uD0DC\uB85C \uBC1B\uC544\uC11C
+        json \uD30C\uC2F1\uC744 \uD574\uC8FC\uB3C4\uB85D \uD55C\uB2E4.\r\n\t\t$.ajax({\r\n\t\t\turl:
+        aurl,\r\n\t\t\tasync : false,\r\n\t\t\ttype  : 'get',\r\n\t\t\tsuccess: function
+        (res) {\r\n\t\t\t\tgtag('config', 'UA-74989022-7', {'page_path': (chartType
+        != 'image') ? '/common/BandChart3.aspx' : '/company/chart/bandChart.aspx'});\r\n\t\t\t\tres
+        = (chartType != 'image') ? $.parseJSON(res) : res;\r\n\t\t\t\tmakeBandChart(res,
+        cmp_cd, gubun);\r\n\t\t\t}\r\n\t\t});\r\n\t}\r\n\tfunction getMenuType() {\r\n\t\treturn
+        \"block\";\r\n\t}\r\n\tfunction getMonth(str) {\r\n\t\tif (!str) {\r\n\t\t\treturn
+        ''\r\n\t\t}\r\n\t\tif (str != null && str != '') {\r\n\t\t\treturn str.substr(4,
+        2);\r\n\t\t}\r\n\t\treturn str;\r\n\t}\r\n\t$(document).ajaxComplete(function()
+        {\r\n\t\tvar targetvalue = '';\r\n\t\tvar moretop = (targetvalue === 'finsum_more')
+        ? ($('#finsum_more').offset() || {top: 0}).top : ({top: 0}).top;\r\n\t\tsetTimeout(function
+        () { autoResize({ moretop: moretop }); }, 1000);\r\n\t});\r\n\t</script>\r\n\t<script
+        type=\"text/javascript\" src=\"/Scripts/monitoring/monitoring.js\"></script>\r\n</div>\r\n</body>\r\n</html>\r\n"
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Length:
+      - '91653'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Wed, 15 Apr 2026 10:05:25 GMT
+      Expires:
+      - '-1'
+      P3P:
+      - CP="CAO PSA OUR"
+      Pragma:
+      - no-cache
+      SERVER:
+      - ''
+      X-UA-Compatible:
+      - IE=Edge,chrome=1
+      p3p:
+      - CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+    status:
+      code: 200
+      message: OK
+version: 1

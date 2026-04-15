@@ -9,6 +9,7 @@ __pycache__/
 htmlcov/
 dist/
 build/
+CLAUDE.md
 
 # Runtime artifacts
 data/cache/

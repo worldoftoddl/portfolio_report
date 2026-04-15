@@ -98,11 +98,28 @@ tests/
 ## 테스트
 
 ```bash
-uv run pytest                 # 63 tests
+uv run pytest                 # 전체
 uv run pytest --cov           # 커버리지 포함
 ```
 
 critical path (네이버 파서 + 가중평균 + 프롬프트 + 마크다운)만 집중 테스트.
+
+### VCR 통합 테스트 (네이버 구조 변경 조기 감지)
+
+네이버 엔드포인트 응답을 `tests/cassettes/*.yaml`에 녹화해두고 재생.
+
+```bash
+# 기본: 카세트만으로 재생 (네트워크 0, CI 기본)
+uv run pytest tests/data/test_naver_client_vcr.py
+
+# 카세트 갱신 (네이버 구조 변경 시 실행, 네트워크 호출)
+./scripts/refresh_cassettes.sh
+```
+
+- `PORTFOLIO_REPORT_VCR_RECORD` 환경변수로 녹화 모드 제어
+  (`none` 기본, `new_episodes`, `all`)
+- 녹화 종목: 삼성전자(005930) 대표 1종 (카세트 크기 관리)
+- 민감 헤더(Cookie/Auth/UA)는 REDACTED로 필터링
 
 ## 개발
 

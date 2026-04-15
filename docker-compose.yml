@@ -1,0 +1,62 @@
+# 개발용 Compose (make dev).
+#
+# 브라우저는 호스트 localhost 기준으로 두 서비스 모두에 접근하므로
+# 프런트 컨테이너가 백엔드 내부 DNS(`http://backend:8000`)로 부를 필요가 없다.
+# NEXT_PUBLIC_API_URL은 브라우저에서 읽히는 값이라 `http://localhost:8000` 고정.
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio_backend
+    ports:
+      - "8000:8000"
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      CLAUDE_MODEL: ${CLAUDE_MODEL:-claude-sonnet-4-20250514}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:3000"]}
+      API_CONCURRENCY_LIMIT: ${API_CONCURRENCY_LIMIT:-5}
+      # 캐시/리포트를 컨테이너 안에서도 프로젝트 루트 기준 경로로 유지
+      CACHE_DIR: /app/data/cache
+      REPORTS_DIR: /app/data/reports
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./data:/app/data
+    command:
+      - uv
+      - run
+      - portfolio-report
+      - serve
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+      - --reload
+
+  frontend:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: portfolio_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+      # 컨테이너 내부 파일 워쳐는 inotify가 바인드 마운트에서 불안정해 폴링 권장
+      WATCHPACK_POLLING: "true"
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ./web/src:/app/src
+      - ./web/public:/app/public
+      - ./web/next.config.ts:/app/next.config.ts:ro
+      # anonymous volume으로 host node_modules와 격리
+      - frontend_node_modules:/app/node_modules
+      - frontend_next:/app/.next
+    depends_on:
+      - backend
+
+volumes:
+  frontend_node_modules:
+  frontend_next:

@@ -1,21 +1,18 @@
-import ChartContainer from "@/components/ChartContainer";
+import AnalyzePanel from "@/components/AnalyzePanel";
 
-// 서버 컴포넌트 (기본). Next 16 App Router.
-// 학습용 미니 페이지 — 1종목 하드코딩, 차트는 클라이언트 컴포넌트로 분리.
+// 서버 컴포넌트 — 정적 쉘 + 클라이언트 폼 패널 임베드.
+// 라우팅(/report/[id])은 6e-4에서.
 export default function Home() {
   return (
-    <main className="mx-auto max-w-6xl p-6">
-      <header className="mb-4">
-        <h1 className="text-2xl font-bold">삼성전자 (005930)</h1>
+    <main className="mx-auto max-w-5xl p-6">
+      <header className="mb-6">
+        <h1 className="text-2xl font-bold">포트폴리오 분석</h1>
         <p className="text-sm text-gray-500">
-          최근 180일 · 캔들스틱 + 거래량 · Lightweight Charts v5 학습 미니 프로젝트
+          보유 종목을 입력하고 [분석 시작]을 누르면 가중평균 PER·베타와 경고를
+          확인할 수 있습니다.
         </p>
       </header>
-      <ChartContainer />
-      <footer className="mt-4 text-xs text-gray-400">
-        데이터: FastAPI (<code>localhost:8000/api/stock/005930/ohlcv</code>)
-        · 브라우저에서 cross-origin 직접 호출 · CORS는 백엔드 <code>cors_origins</code> 설정에 의존
-      </footer>
+      <AnalyzePanel />
     </main>
   );
 }

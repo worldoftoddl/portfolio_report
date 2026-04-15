@@ -1,0 +1,7 @@
+holdings:
+  - name: 삼성전자
+    quantity: 10
+  - name: SK하이닉스
+    quantity: 5
+  - code: "035420"   # NAVER
+    quantity: 3
